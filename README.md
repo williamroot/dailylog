@@ -13,8 +13,6 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 * `04.jul` | `.ipynb` | Análise para aula do Knight Center | [Recursos recebidos por comitês da Califórnia](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-07-04-rodolfoviana-supporting-vs-opposing.ipynb) **[Concluído]**
 * `20.jun` | `.ipynb` | Análise para a Serenata de Amor | [Despesas com aluguel de carros](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-06-20-rodolfoviana-expenses-on-car-rental.ipynb) **[Em andamento]**
 
-<p align="center"><img src="https://image.flaticon.com/icons/png/512/21/21294.png" alt="" width="100" /></p>
-
 # Sobre o autor
 
 Meu nome é Rodolfo Viana e eu sou jornalista.
