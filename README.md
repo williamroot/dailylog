@@ -1,4 +1,4 @@
-<p align="center"><img src="https://image.flaticon.com/icons/svg/34/34389.svg" alt="" width="100" /></p>
+<p align="center"><img src="http://simpleicon.com/wp-content/uploads/Calendar-1.png" alt="" width="100" /></p>
 
 # Daily Log
 
@@ -13,6 +13,8 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 * `04.jul` | `.ipynb` | Análise para aula do Knight Center | [Recursos recebidos por comitês da Califórnia](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-07-04-rodolfoviana-supporting-vs-opposing.ipynb) **[Concluído]**
 * `20.jun` | `.ipynb` | Análise para a Serenata de Amor | [Despesas com aluguel de carros](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-06-20-rodolfoviana-expenses-on-car-rental.ipynb) **[Em andamento]**
 
+<p align="center"><img src="https://image.flaticon.com/icons/png/512/21/21294.png" alt="" width="100" /></p>
+
 # Sobre o autor
 
 Meu nome é Rodolfo Viana e eu sou jornalista.
@@ -26,5 +28,3 @@ Recebi alguns méritos ao longo da carreira, como um Prêmio Folha de Reportagem
 Dedico parte do tempo aos estudos de jornalismo de dados, fact-checking, Python, R e estatística, e faço parte da Abraji - Associação Brasileira de Jornalismo Investigativo.
 
 Caso queira falar comigo, entre em contato pelo e-mail rodolfo@rodolfoviana.com.br. Para mensagens criptografadas, minha chave pública é `C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5`.
-
-<p align="center"><img src="https://68.media.tumblr.com/74ee5f8ecbe1c0c3cdfe14bb4ee4fcbc/tumblr_ovxynoTPQf1w9czw6o1_400.gif" alt="" width="100" /></p>
