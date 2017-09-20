@@ -19,10 +19,10 @@ Meu nome é Rodolfo Viana e eu sou jornalista.
 
 Nasci em Marília, cidade com cheiro de bolacha no centro-oeste paulista, no dia 17 de março de 1981. Vim para São Paulo depois de me formar, há mais de dez anos.
 
-Desde então eu passei pela Folha de S.Paulo, pelo Huffington Post e por revistas da Editora Abril. Como repórter independente, escrevi para a Piauí, o Aos Fatos, a Superinteressante e outros veículos.
+Desde então eu passei pela Folha de S.Paulo, pelo Huffington Post e por revistas da Editora Abril. Como repórter independente, publiquei textos na Piauí, no Aos Fatos, na Superinteressante e em outros veículos.
 
 Recebi alguns méritos ao longo da carreira, como um Prêmio Folha de Reportagem, em 2016, por um furo de reportagem sobre fraude na Lei Rouanet, e um Prêmio Abril de Jornalismo, na categoria gestão de redes sociais, em 2015, pelo trabalho realizado no HuffPost.
 
 Dedico parte do tempo aos estudos de jornalismo de dados, fact-checking, Python, R e estatística, e faço parte da Abraji - Associação Brasileira de Jornalismo Investigativo.
 
-Caso queira falar comigo, entre em contato pelo e-mail rodolfo@rodolfoviana.com.br. Para mensagens criptografadas, minha chave pública é C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5.
+Caso queira falar comigo, entre em contato pelo e-mail rodolfo@rodolfoviana.com.br. Para mensagens criptografadas, minha chave pública é `C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5`.
