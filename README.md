@@ -12,3 +12,17 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 * `06.jul` | `.ipynb` | Análise | [Perfil da Câmara dos Deputados baseado nos gastos via Ceap](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-07-06-rodolfoviana-profile-on-congresspersons.ipynb) **[Em andamento]**
 * `04.jul` | `.ipynb` | Análise para aula do Knight Center | [Recursos recebidos por comitês da Califórnia](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-07-04-rodolfoviana-supporting-vs-opposing.ipynb) **[Concluído]**
 * `20.jun` | `.ipynb` | Análise para a Serenata de Amor | [Despesas com aluguel de carros](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-06-20-rodolfoviana-expenses-on-car-rental.ipynb) **[Em andamento]**
+
+# Sobre o autor
+
+Meu nome é Rodolfo Viana e eu sou jornalista.
+
+Nasci em Marília, cidade com cheiro de bolacha no centro-oeste paulista, no dia 17 de março de 1981. Vim para São Paulo depois de me formar, há mais de dez anos.
+
+Desde então eu passei pela Folha de S.Paulo, pelo Huffington Post e por revistas da Editora Abril. Como repórter independente, escrevi para a Piauí, o Aos Fatos, a Superinteressante e outros veículos.
+
+Recebi alguns méritos ao longo da carreira, como um Prêmio Folha de Reportagem, em 2016, por um furo de reportagem sobre fraude na Lei Rouanet, e um Prêmio Abril de Jornalismo, na categoria gestão de redes sociais, em 2015, pelo trabalho realizado no HuffPost.
+
+Dedico parte do tempo aos estudos de jornalismo de dados, fact-checking, Python, R e estatística, e faço parte da Abraji - Associação Brasileira de Jornalismo Investigativo.
+
+Caso queira falar comigo, entre em contato pelo e-mail rodolfo@rodolfoviana.com.br.
