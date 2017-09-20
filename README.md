@@ -26,3 +26,5 @@ Recebi alguns méritos ao longo da carreira, como um Prêmio Folha de Reportagem
 Dedico parte do tempo aos estudos de jornalismo de dados, fact-checking, Python, R e estatística, e faço parte da Abraji - Associação Brasileira de Jornalismo Investigativo.
 
 Caso queira falar comigo, entre em contato pelo e-mail rodolfo@rodolfoviana.com.br. Para mensagens criptografadas, minha chave pública é `C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5`.
+
+<p align="center"><img src="https://68.media.tumblr.com/74ee5f8ecbe1c0c3cdfe14bb4ee4fcbc/tumblr_ovxynoTPQf1w9czw6o1_400.gif" alt="" width="100" /></p>
