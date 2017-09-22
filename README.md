@@ -23,6 +23,6 @@ Desde então eu passei pela Folha de S.Paulo, pelo Huffington Post e por revista
 
 Recebi alguns méritos ao longo da carreira, como um Prêmio Folha de Reportagem, em 2016, por um furo de reportagem sobre fraude na Lei Rouanet, e um Prêmio Abril de Jornalismo, na categoria gestão de redes sociais, em 2015, pelo trabalho realizado no HuffPost.
 
-Dedico parte do tempo aos estudos de jornalismo de dados, fact-checking, Python, R e estatística, e faço parte da Abraji - Associação Brasileira de Jornalismo Investigativo.
+Atualmente sou produtor de reportagem dos telejornais da Rede Globo. Atuo na área de dados. Dedico parte do tempo livre aos estudos de jornalismo de dados, fact-checking, Python, R e estatística, e faço parte da Abraji - Associação Brasileira de Jornalismo Investigativo.
 
 Caso queira falar comigo, entre em contato pelo e-mail rodolfo@rodolfoviana.com.br. Para mensagens criptografadas, minha chave pública é `C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5`.
