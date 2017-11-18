@@ -6,6 +6,9 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 
 ### 2017
 
+* `03.nov` | `.ipynb` | Análise | [Gastos do Legislativo municipal em 2017, por categorias de despesa](https://github.com/rodolfo-viana/globo/blob/master/analises/porcentagem_gastos_vereadores_sp.ipynb) **[Concluído - Repositório privado]**
+* `02.nov` | `.py` | Script | [Crawler: gastos dos vereadores + download de notas fiscais](https://github.com/rodolfo-viana/globo/blob/master/scripts/crawler-gastos-camara-sp/vereadores_sp_gastos_v2.py) **[Concluído - Repositório privado]**
+* `30.out` | `.py` | Script | [Crawler: gastos dos vereadores](https://github.com/rodolfo-viana/globo/blob/master/scripts/crawler-gastos-camara-sp/vereadores_sp_gastos_v1.py) **[Concluído - Repositório privado]**
 * `28.out` | `.js` | Script | [Site pessoal](https://github.com/rodolfo-viana/rodolfo-viana.github.io) **[Concluído - Repositório privado]**
 * `05.set` | `.py` | Script | [Raspagem de dados: hashtag do Twitter](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-09-05-rodolfoviana-scraping-hashtag-on-twitter.py) **[Concluído]**
 * `27.ago` | `.ipynb` | Teste de consistência de dados | [Gastos dos vereadores de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-08-27-rodolfoviana-sao-paulo-city-council-expenses.ipynb) **[Em andamento]**
