@@ -1,5 +1,3 @@
-[![Gitter](https://badges.gitter.im/USER/REPO.png)](https://gitter.im/rodolfo-viana-sac/Lobby "SAC - Serviço de atendimento a coders")
-
 <p align="center"><img src="http://simpleicon.com/wp-content/uploads/Calendar-1.png" alt="" width="100" /></p>
 
 # Daily Log
