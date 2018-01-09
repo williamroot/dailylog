@@ -1,3 +1,5 @@
+[![Dúvidas? Fale comigo](https://badges.gitter.im/USER/REPO.png)](https://gitter.im/dailylog/Lobby "Gitter chat")
+
 <p align="center"><img src="http://simpleicon.com/wp-content/uploads/Calendar-1.png" alt="" width="100" /></p>
 
 # Daily Log
