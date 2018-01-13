@@ -8,13 +8,12 @@ Criado em 8 de janeiro de 2018, às 00:49:56
 from __future__ import print_function
 from xml.sax import ContentHandler, parse
 import requests
-import xml.etree.cElementTree as ET
 import csv
 
 file = requests.get('http://www.al.sp.gov.br/repositorioDados/deputados/despesas_gabinetes.xml')
 
 with open('despesas_gabinetes.xml','wb') as f:
-	f.write(file.content)
+    f.write(file.content)
 
 class Handler(ContentHandler):
 
@@ -53,16 +52,8 @@ class Handler(ContentHandler):
 
 
 def gravar_despesas(writer, despesas):
-    cabecalhos = [
-        'Deputado',
-        'Matricula',
-        'Ano',
-        'Mes',
-        'Tipo',
-        'CNPJ',
-        'Fornecedor',
-        'Valor'
-    ]
+    cabecalhos = ['Deputado', 'Matricula', 'Ano', 'Mes',
+                  'Tipo', 'CNPJ', 'Fornecedor', 'Valor']
     writer.writerow(cabecalhos)
 
     for despesa in despesas:
@@ -77,7 +68,7 @@ def main():
 
     print('Found {} despesas'.format(len(handler.despesas)))
 
-    with open('despesas.csv', 'w', encoding='latin-1') as f_handle:
+    with open('despesas.csv', 'w', encoding='latin-1', newline='') as f_handle:
         writer = csv.writer(f_handle)
         gravar_despesas(writer, handler.despesas)
 
