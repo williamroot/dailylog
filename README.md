@@ -7,7 +7,7 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 ### 2018
 
 * `13.jan` | `.js` | Marco | Comecei a estudar `JavaScript`
-* `11.jan` | `.py` | Script | [Crawler: deputados na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_gastos_gabinetes.py) **[WIP]**
+* `11.jan` | `.py` | Script | [Crawler: deputados na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_deputados.py) **[WIP]**
 * `08.jan` | `.py` | Script | [Crawler: despesas de gabinetes da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_gastos_gabinetes.py) **[Concluído]**
 * `02.jan` | `.py` | Script | [Crawler: lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_funcionarios.py) **[Concluído]**
 
