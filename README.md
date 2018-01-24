@@ -29,14 +29,8 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 
 # Sobre o autor
 
-Meu nome é Rodolfo Viana e eu sou jornalista.
+Produtor de reportagem da Rede Globo, com foco em análise de dados. Antes disso, como repórter independente, escreveu para o jornal Folha de S. Paulo, a revista piauí, o site Aos Fatos, entre outras publicações. Também realizava análises de dados para projetos de auditoria de contas públicas, como a Operação Serenata de Amor.
 
-Nasci em Marília, cidade com cheiro de bolacha no centro-oeste paulista, no dia 17 de março de 1981. Vim para São Paulo há mais de dez anos, para fazer pós-graduação. Acabei ficando.
+Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015, na categoria Gestão de Redes Sociais. Estudante de Python, R, SQL, estatística e data journalism, e membro da Abraji - Associação Brasileira de Jornalismo Investigativo.
 
-Desde então passei pela Folha de S.Paulo, pelo Huffington Post e por revistas da Editora Abril. Atualmente sou produtor de reportagem da Rede Globo, na área de dados. 
-
-Como repórter independente, publiquei textos na Piauí, no Aos Fatos, na Superinteressante e em outros veículos. Recebi alguns méritos ao longo da carreira, como um Prêmio Folha de Reportagem, em 2016, por um furo de reportagem sobre fraude na Lei Rouanet, e um Prêmio Abril de Jornalismo, na categoria gestão de redes sociais, em 2015, pelo trabalho realizado no HuffPost.
-
-Dedico parte do tempo livre aos estudos de jornalismo de dados, fact-checking, Python e estatística, e faço parte da Abraji - Associação Brasileira de Jornalismo Investigativo.
-
-Caso queira falar comigo, entre em contato pelo e-mail rodolfo@rodolfoviana.com.br. Para mensagens criptografadas, minha chave pública é `C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5`.
+Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br`. Para mensagens criptografadas, a chave pública é `C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5`.
