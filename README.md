@@ -16,6 +16,7 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 
 ### 2017
 
+* `21.dez` | `.ipynb` | Análise | [Salários dos servidores da Câmara de São Paulo](https://github.com/rodolfo-viana/globo/blob/master/analises/salarios_camara_sp.ipynb) **[Concluído - Repositório privado]**
 * `03.nov` | `.ipynb` | Análise | [Gastos do Legislativo municipal em 2017, por categorias de despesa](https://github.com/rodolfo-viana/globo/blob/master/analises/porcentagem_gastos_vereadores_sp.ipynb) **[Concluído - Repositório privado]**
 * `02.nov` | `.py` | Script | [Crawler: gastos dos vereadores + download de notas fiscais](https://github.com/rodolfo-viana/globo/blob/master/scripts/crawler-gastos-camara-sp/vereadores_sp_gastos_v2.py) **[Concluído - Repositório privado]**
 * `30.out` | `.py` | Script | [Crawler: gastos dos vereadores](https://github.com/rodolfo-viana/globo/blob/master/scripts/crawler-gastos-camara-sp/vereadores_sp_gastos_v1.py) **[Concluído - Repositório privado]**
