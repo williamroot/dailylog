@@ -6,7 +6,7 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 
 ### 2018
 
-* `31.jan` | `.etc` | Post-it | Comecei a estudar `NLP`.
+* `31.jan` | `.etc` | Post-it | Comecei a estudar `NLP`
 * `21.jan` | `.js` | Script | [Atualização: Site pessoal](https://github.com/rodolfo-viana/rodolfo-viana.github.io) **[Concluído - Repositório privado]**
 * `21.jan` | `.ipynb` | Análise | [Despesas dos deputados estaduais em 2017](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-06-20-rodolfoviana-expenses-on-car-rental.ipynb) **[Concluído - Repositório privado]**
 * `20.jan` | `.py` | Script | [Crawler: Páginas de Facebook](https://github.com/rodolfo-viana/globo/tree/master/scripts/fb_scraper) **[WIP - Repositório privado]**
