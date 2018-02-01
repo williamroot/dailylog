@@ -35,6 +35,6 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 
 Produtor de reportagem da Rede Globo, com foco em análise de dados. Antes disso, como repórter independente, escreveu para o jornal Folha de S. Paulo, a revista piauí, o site Aos Fatos, entre outras publicações. Também realizava análises de dados para projetos de auditoria de contas públicas, como a Operação Serenata de Amor.
 
-Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015, na categoria Gestão de Redes Sociais. Estudante de Python, R, SQL, estatística e data journalism, e membro da Abraji - Associação Brasileira de Jornalismo Investigativo.
+Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015, na categoria Gestão de Redes Sociais. Estudante de Python, SQL, JavaScript, estatística e data journalism. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
 
 Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br`. Para mensagens criptografadas, a chave pública é `C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5`.
