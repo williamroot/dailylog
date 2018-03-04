@@ -11,7 +11,7 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 * `10.fev` | `.ipynb` | Análise | [Despesas dos vereadores com correios](https://github.com/rodolfo-viana/dailylog/blob/master/2018/vereadores_correios.ipynb) **[Concluído]**
 * `21.jan` | `.js` | Script | [Atualização: Site pessoal](https://github.com/rodolfo-viana/rodolfo-viana.github.io) **[Concluído - Repositório privado]**
 * `21.jan` | `.ipynb` | Análise | [Despesas dos deputados estaduais em 2017](https://github.com/rodolfo-viana/dailylog/blob/master/2017/2017-06-20-rodolfoviana-expenses-on-car-rental.ipynb) **[Concluído - Repositório privado]**
-* `20.jan` | `.py` | Script | [Crawler: Páginas de Facebook](https://github.com/rodolfo-viana/globo/tree/master/scripts/fb_scraper) **[WIP - Repositório privado]**
+* `20.jan` | `.py` | Script | [Crawler: Páginas de Facebook](https://github.com/rodolfo-viana/globo/tree/master/scripts/fb_scraper) **[Concluído - Repositório privado]**
 * `11.jan` | `.py` | Script | [Crawler: deputados na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_deputados.py) **[WIP]**
 * `08.jan` | `.py` | Script | [Crawler: despesas de gabinetes da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_gastos_gabinetes.py) **[Concluído]**
 * `02.jan` | `.py` | Script | [Crawler: lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_funcionarios.py) **[Concluído]**
