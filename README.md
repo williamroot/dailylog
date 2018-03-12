@@ -6,15 +6,15 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 
 ### 2018
 
+* `11.mar` | `.py` | Script | [Lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_funcionario_lotacao.py) **[Concluído]**
+* `11.mar` | `.py` | Script | [Histórico de cargos dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_funcionario_cargo.py) **[Concluído]**
+* `11.mar` | `.py` | Script | [Gastos dos deputados estaduais](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_deputado_gasto.py) **[Concluído]**
 * `24.fev` | `.ipynb` | Análise | [Despesas de deputados estaduais com material gráfico](https://github.com/rodolfo-viana/globo/blob/master/analises/alesp/2018-02-24-gastos-deputados-sp.ipynb) **[Concluído - Repositório privado]**
 * `19.fev` | `.etc` | Post-it | Começou a estudar `R`
 * `11.fev` | `.etc` | Post-it | Começou a estudar `RiveScript`
 * `10.fev` | `.ipynb` | Análise | [Despesas dos vereadores com correios](https://github.com/rodolfo-viana/dailylog/blob/master/2018/vereadores_correios.ipynb) **[Concluído]**
 * `21.jan` | `.js` | Script | [Atualização: Site pessoal](https://github.com/rodolfo-viana/rodolfo-viana.github.io) **[Concluído - Repositório privado]**
 * `20.jan` | `.py` | Script | [Crawler: Páginas de Facebook](https://github.com/rodolfo-viana/globo/tree/master/scripts/fb_scraper) **[Concluído - Repositório privado]**
-* `11.jan` | `.py` | Script | [Crawler: deputados na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_deputados.py) **[WIP]**
-* `08.jan` | `.py` | Script | [Crawler: despesas de gabinetes da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_gastos_gabinetes.py) **[Concluído]**
-* `02.jan` | `.py` | Script | [Crawler: lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/scraper_alesp_funcionarios.py) **[Concluído]**
 
 ### 2017
 
