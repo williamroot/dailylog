@@ -6,6 +6,9 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 
 ### 2018
 
+* `20.mar` | `.py` | Script | [Relação das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao.py) **[Concluído]**
+* `20.mar` | `.py` | Script | [Relação dos membros das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao_membro.py) **[Concluído]**
+* `20.mar` | `.py` | Script | [Deliberações nas comissões permanentes na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao_permanente_deliberacao.py) **[Concluído]**
 * `11.mar` | `.py` | Script | [Lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_funcionario_lotacao.py) **[Concluído]**
 * `11.mar` | `.py` | Script | [Histórico de cargos dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_funcionario_cargo.py) **[Concluído]**
 * `11.mar` | `.py` | Script | [Gastos dos deputados estaduais](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_deputado_gasto.py) **[Concluído]**
