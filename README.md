@@ -14,6 +14,7 @@
 * `11.mar` | `.py` | Script | [Lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_funcionario_lotacao.py)
 * `11.mar` | `.py` | Script | [Histórico de cargos dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_funcionario_cargo.py)
 * `11.mar` | `.py` | Script | [Gastos dos deputados estaduais](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_deputado_gasto.py)
+* `01.mar` | `.mov` | Reportagem | [Três vereadores gastaram quase meio milhão com mala direta em 2017](https://globoplay.globo.com/v/6543894/programa/) **[Link externo]**
 * `24.fev` | `.ipynb` | Análise | [Despesas de deputados estaduais com material gráfico](https://github.com/rodolfo-viana/globo/blob/master/analises/alesp/2018-02-24-gastos-deputados-sp.ipynb) **[Repositório privado]**
 * `19.fev` | `.etc` | Post-it | Começou a estudar `R`
 * `11.fev` | `.etc` | Post-it | Começou a estudar `RiveScript`
