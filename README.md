@@ -4,7 +4,7 @@
 
 ### 2018
 
-* `20.mar` | `.py` | Script | [Relação de documentos apresentados nas comissões na Assembleia Legislativa do Estado de São Paulo, por natureza](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_natureza_doc.py)
+* `20.mar` | `.py` | Script | [Relação de documentos na Assembleia Legislativa do Estado de São Paulo, por natureza](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_natureza_doc.py)
 * `20.mar` | `.py` | Script | [Relação de reuniões das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao_permanente_reuniao.py)
 * `20.mar` | `.py` | Script | [Presença dos deputados nas comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao_permanente_presenca.py)
 * `20.mar` | `.py` | Script | [Relação de comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao.py)
