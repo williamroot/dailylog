@@ -19,7 +19,7 @@
 * `19.fev` | `.etc` | Post-it | Começou a estudar `R`
 * `11.fev` | `.etc` | Post-it | Começou a estudar `RiveScript`
 * `10.fev` | `.ipynb` | Análise | [Despesas dos vereadores com correios](https://github.com/rodolfo-viana/dailylog/blob/master/2018/vereadores_correios.ipynb)
-* `05.fev` | `.mov` | Reportagem | [Cinco pessoas são presas por roubar celulares de foliões nos blocos de carnaval](https://globoplay.globo.com/v/6477808/programa/) **[Link externo]**
+* `05.fev` | `.mov` | Reportagem | [Cinco pessoas são presas por roubar celulares nos blocos de carnaval](https://globoplay.globo.com/v/6477808/programa/) **[Link externo]**
 * `21.jan` | `.js` | Script | [Atualização: Site pessoal](https://github.com/rodolfo-viana/rodolfo-viana.github.io) **[Repositório privado]**
 * `20.jan` | `.py` | Script | [Crawler: Páginas de Facebook](https://github.com/rodolfo-viana/globo/tree/master/scripts/fb_scraper) **[Repositório privado]**
 
