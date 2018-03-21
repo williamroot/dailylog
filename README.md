@@ -6,9 +6,13 @@ Inspirado no [daily log de Zeh Fernandes](https://github.com/zehfernandes/dailyl
 
 ### 2018
 
-* `20.mar` | `.py` | Script | [Relação das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao.py) **[Concluído]**
+* `20.mar` | `.py` | Script | [Relação de documentos apresentados nas comissões na Assembleia Legislativa do Estado de São Paulo, por natureza](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_natureza_doc.py) **[Concluído]**
+* `20.mar` | `.py` | Script | [Relação de reuniões das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao_permanente_reuniao.py) **[Concluído]**
+* `20.mar` | `.py` | Script | [Presença dos deputados nas comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao_permanente_presenca.py) **[Concluído]**
+* `20.mar` | `.py` | Script | [Relação de comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao.py) **[Concluído]**
 * `20.mar` | `.py` | Script | [Relação dos membros das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao_membro.py) **[Concluído]**
 * `20.mar` | `.py` | Script | [Deliberações nas comissões permanentes na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_comissao_permanente_deliberacao.py) **[Concluído]**
+* `19.fev` | `.etc` | Post-it | Começou pós-graduação em `Ciência de dados e big data` (PUC Minas)
 * `11.mar` | `.py` | Script | [Lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_funcionario_lotacao.py) **[Concluído]**
 * `11.mar` | `.py` | Script | [Histórico de cargos dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_funcionario_cargo.py) **[Concluído]**
 * `11.mar` | `.py` | Script | [Gastos dos deputados estaduais](https://github.com/rodolfo-viana/dailylog/blob/master/2018/alesp_deputado_gasto.py) **[Concluído]**
