@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import requests
 
-url = 'http://www.al.sp.gov.br/repositorioDados/deputados/despesas_gabinetes.xml'
+url = 'http://www.al.sp.gov.br/repositorioDados/processo_legislativo/naturezasSpl.xml'
 xml_data = requests.get(url).content
 
 class XML2DataFrame:
@@ -30,25 +30,20 @@ class XML2DataFrame:
 
 xml2df = XML2DataFrame(xml_data)
 dataset = xml2df.process_data()
-dataset = dataset[['Deputado', 
-                   'Matricula', 
-                   'Ano', 
-                   'Mes', 
-                   'Tipo', 
-                   'Fornecedor', 
-                   'CNPJ',
-                   'Valor']]
+dataset = dataset[['idNatureza', 
+                   'nmNatureza', 
+                   'sgNatureza', 
+                   'tpNatureza']]
 dataset = dataset.rename(columns={
-    'Deputado': 'deputado',
-    'Matricula': 'matricula',
-    'Ano': 'ano',
-    'Mes': 'mes',
-    'Tipo': 'tipo',
-    'Fornecedor': 'fornecedor',
-    'CNPJ': 'cnpj', 
-    'Valor': 'valor'
+    'idNatureza': 'id_natureza', 
+    'nmNatureza': 'nome_natureza', 
+    'sgNatureza': 'sigla_natureza', 
+    'tpNatureza': 'tipo_natureza'
 })
-dataset.to_csv('alesp_deputados_gastos.csv', 
+dataset['tipo_natureza'] = dataset['tipo_natureza'].replace('ME', 'Documento Mestre')\
+                                                   .replace('AC', 'Acessório')\
+                                                   .replace('MD', 'Estudo')\
+                                                   .replace('PA', 'Outros')
+dataset.to_csv('alesp_natureza_docs.csv', 
                encoding = 'utf-8', 
-               sep = ';', 
-               index = False)
+               sep = ';', index = False)

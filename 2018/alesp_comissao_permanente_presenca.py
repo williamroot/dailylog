@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import requests
 
-url = 'http://www.al.sp.gov.br/repositorioDados/deputados/despesas_gabinetes.xml'
+url = 'http://www.al.sp.gov.br/repositorioDados/processo_legislativo/comissoes_permanentes_presencas.xml'
 xml_data = requests.get(url).content
 
 class XML2DataFrame:
@@ -30,25 +30,22 @@ class XML2DataFrame:
 
 xml2df = XML2DataFrame(xml_data)
 dataset = xml2df.process_data()
-dataset = dataset[['Deputado', 
-                   'Matricula', 
-                   'Ano', 
-                   'Mes', 
-                   'Tipo', 
-                   'Fornecedor', 
-                   'CNPJ',
-                   'Valor']]
+dataset = dataset[['IdReuniao', 
+                   'DataReuniao', 
+                   'IdPauta',
+                   'SiglaComissao',
+                   'IdComissao',
+                   'Deputado',
+                   'IdDeputado']]
 dataset = dataset.rename(columns={
-    'Deputado': 'deputado',
-    'Matricula': 'matricula',
-    'Ano': 'ano',
-    'Mes': 'mes',
-    'Tipo': 'tipo',
-    'Fornecedor': 'fornecedor',
-    'CNPJ': 'cnpj', 
-    'Valor': 'valor'
+    'IdReuniao': 'id_reuniao', 
+    'DataReuniao': 'data_reuniao', 
+    'IdPauta': 'id_pauta', 
+    'SiglaComissao': 'sigla_comissao', 
+    'IdComissao': 'id_comissao', 
+    'Deputado': 'deputado', 
+    'IdDeputado': 'id_deputado'
 })
-dataset.to_csv('alesp_deputados_gastos.csv', 
+dataset.to_csv('alesp_comissoes_permanentes_presencas.csv', 
                encoding = 'utf-8', 
-               sep = ';', 
-               index = False)
+               sep = ';', index = False)
