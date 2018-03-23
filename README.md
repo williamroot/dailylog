@@ -2,6 +2,8 @@
 
 # Daily Log
 
+Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registros dos trabalhos de Rodolfo Viana.
+
 ### 2018
 
 * `20.mar` | `.py` | Script | [Relação de documentos na Assembleia Legislativa do Estado de São Paulo, por natureza](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_natureza_doc.py)
