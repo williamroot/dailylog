@@ -28,7 +28,7 @@
 ### 2017
 
 * `18.dez` | `.mov` | Reportagem | [Balanço da Câmara e da Assembleia Legislativa](https://globoplay.globo.com/v/6365526/) **[Link externo]**
-* `18.dez` | `.mov` | Reportagem | [Prefeitura de SP leva 50% mais tempo para resolver problemas de zeladoria](https://globoplay.globo.com/v/6364186/) **[Link externo]**
+* `18.dez` | `.mov` | Reportagem | [Prefeitura leva 50% mais tempo para resolver problemas de zeladoria](https://globoplay.globo.com/v/6364186/) **[Link externo]**
 * `25.nov` | `.ipynb` | Análise | [Breve análise de gastos dos vereadores](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-11-25-porcentagem_gastos_vereadores_sp.ipynb)
 * `16.nov` | `.mov` | Reportagem | [Polícia registra 201 crimes com armas de brinquedo em São Paulo este ano](http://g1.globo.com/jornal-nacional/edicoes/2017/11/16.html#!v/6294554) **[Link externo]**
 * `02.nov` | `.py` | Script | [Gastos dos vereadores + download de notas fiscais](https://github.com/rodolfo-viana/globo/blob/master/scripts/gastos-camara-sp/vereadores_sp_gastos_v2.py) **[Repositório privado]**
