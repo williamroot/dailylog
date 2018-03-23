@@ -22,7 +22,7 @@
 * `10.fev` | `.ipynb` | Análise | [Despesas dos vereadores com correios](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-02-24-vereadores_correios.ipynb)
 * `05.fev` | `.mov` | Reportagem | [Cinco pessoas são presas por roubar celulares nos blocos de carnaval](https://globoplay.globo.com/v/6477808/programa/) **[Link externo]**
 * `26.jan` | `.mov` | Reportagem | [SP registrou 10 mil casos de furtos a mais em 2017 do que no ano anterior](https://globoplay.globo.com/v/6452520/) **[Link externo]**
-* `20.jan` | `.mov` | Reportagem | [Dados mostram que maioria dos acidentes com morte acontecem no final de semana](https://globoplay.globo.com/v/6436485/) **[Link externo]**
+* `20.jan` | `.mov` | Reportagem | [Maioria dos acidentes com morte em SP acontece no final de semana](https://globoplay.globo.com/v/6436485/) **[Link externo]**
 * `20.jan` | `.py` | Script | [Posts de páginas de Facebook](https://github.com/rodolfo-viana/globo/tree/master/scripts/fb_scraper) **[Repositório privado]**
 
 ### 2017
