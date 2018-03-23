@@ -21,11 +21,16 @@
 * `11.fev` | `.etc` | Post-it | Começou a estudar `RiveScript`
 * `10.fev` | `.ipynb` | Análise | [Despesas dos vereadores com correios](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-02-24-vereadores_correios.ipynb)
 * `05.fev` | `.mov` | Reportagem | [Cinco pessoas são presas por roubar celulares nos blocos de carnaval](https://globoplay.globo.com/v/6477808/programa/) **[Link externo]**
+* `26.jan` | `.mov` | Reportagem | [SP registrou 10 mil casos de furtos a mais em 2017 do que no ano anterior](https://globoplay.globo.com/v/6452520/) **[Link externo]**
+* `20.jan` | `.mov` | Reportagem | [Dados mostram que maioria dos acidentes com morte acontecem no final de semana](https://globoplay.globo.com/v/6436485/) **[Link externo]**
 * `20.jan` | `.py` | Script | [Posts de páginas de Facebook](https://github.com/rodolfo-viana/globo/tree/master/scripts/fb_scraper) **[Repositório privado]**
 
 ### 2017
 
+* `18.dez` | `.mov` | Reportagem | [Balanço da Câmara e da Assembleia Legislativa](https://globoplay.globo.com/v/6365526/) **[Link externo]**
+* `18.dez` | `.mov` | Reportagem | [Levantamento revela demora na resolução dos problemas registrados na central 156](https://globoplay.globo.com/v/6364186/) **[Link externo]**
 * `25.nov` | `.ipynb` | Análise | [Breve análise de gastos dos vereadores](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-11-25-porcentagem_gastos_vereadores_sp.ipynb)
+* `16.nov` | `.mov` | Reportagem | [Polícia registra 201 crimes com armas de brinquedo em São Paulo este ano](http://g1.globo.com/jornal-nacional/edicoes/2017/11/16.html#!v/6294554) **[Link externo]**
 * `02.nov` | `.py` | Script | [Gastos dos vereadores + download de notas fiscais](https://github.com/rodolfo-viana/globo/blob/master/scripts/gastos-camara-sp/vereadores_sp_gastos_v2.py) **[Repositório privado]**
 * `30.out` | `.py` | Script | [Gastos dos vereadores](https://github.com/rodolfo-viana/globo/blob/master/scripts/gastos-camara-sp/vereadores_sp_gastos_v1.py) **[Repositório privado]**
 * `29.out` | `.py` | Script | [Tweets por hashtag](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/twitter_hashtag_scraping.py)
