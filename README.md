@@ -44,7 +44,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 # Sobre o autor
 
-![](https://media.licdn.com/media/AAMAAgDGAAwAAQAAAAAAAA4rAAAAJDM0YjYxMTY3LWJlZWItNDhkNC1iYzUxLTg0MWNkMGM5OWZiYQ.jpg)
+![](https://i.imgur.com/MJQNRLk.jpg)
 
 Produtor de reportagem da Rede Globo, com foco em análise de dados. Antes disso, como repórter independente, escreveu para o jornal Folha de S. Paulo, a revista piauí, o site Aos Fatos, entre outras publicações. Também colaborou com análises de dados em projetos de auditoria de contas públicas, como a Operação Serenata de Amor.
 
