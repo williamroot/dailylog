@@ -16,15 +16,12 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 * `20.mar` | `.py` | Script | [Relação de comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao.py)
 * `20.mar` | `.py` | Script | [Relação dos membros das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_membro.py)
 * `20.mar` | `.py` | Script | [Deliberações nas comissões permanentes na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_deliberacao.py)
-* `19.mar` | `.etc` | Post-it | Começou pós-graduação em `Ciência de dados e big data` (PUC Minas)
 * `14.mar` | `.ipynb` | Análise | [Sindicâncias e inquéritos na Corregedoria da Guarda Civil Metropolitana](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-03-14-gcm_processos_administrativos.ipynb)
 * `11.mar` | `.py` | Script | [Lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_lotacao.py)
 * `11.mar` | `.py` | Script | [Histórico de cargos dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_cargo.py)
 * `11.mar` | `.py` | Script | [Gastos dos deputados estaduais](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_deputado_gasto.py)
 * `01.mar` | `.mov` | Reportagem | [Três vereadores gastaram quase meio milhão com mala direta em 2017](https://globoplay.globo.com/v/6543894/programa/) **[Link externo]**
 * `24.fev` | `.ipynb` | Análise | [Despesas de deputados estaduais com material gráfico](https://github.com/rodolfo-viana/globo/blob/master/analises/alesp/2018-02-24-gastos-deputados-sp.ipynb) **[Repositório privado]**
-* `19.fev` | `.etc` | Post-it | Começou a estudar `R`
-* `11.fev` | `.etc` | Post-it | Começou a estudar `RiveScript`
 * `10.fev` | `.ipynb` | Análise | [Despesas dos vereadores com correios](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-02-24-vereadores_correios.ipynb)
 * `05.fev` | `.mov` | Reportagem | [Cinco pessoas são presas por roubar celulares nos blocos de carnaval](https://globoplay.globo.com/v/6477808/programa/) **[Link externo]**
 * `26.jan` | `.mov` | Reportagem | [SP registrou 10 mil casos de furtos a mais em 2017 do que no ano anterior](https://globoplay.globo.com/v/6452520/) **[Link externo]**
