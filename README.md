@@ -7,6 +7,9 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 ### 2018
 
 * `16.abr` | `.py` | Script | [Uma música aleatória de Belchior a cada duas horas](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py)
+* `10.abr` | `.mov` | Reportagem | [Casos de roubos estão concentrados em delegacias do Centro e Zona Sul](https://globoplay.globo.com/v/6651908/programa/) **[Link externo]**
+* `09.abr` | `.mov` | Reportagem | [Horário da volta pra casa, entre 17h e 19h, tem maior índice de furto no metrô](https://globoplay.globo.com/v/6648976/programa/) **[Link externo]**
+* `09.abr` | `.mov` | Reportagem | [Furtos na CPTM e no Metrô sobem 8%](https://globoplay.globo.com/v/6647496/programa/) **[Link externo]**
 * `20.mar` | `.py` | Script | [Relação de documentos na Assembleia Legislativa do Estado de São Paulo, por natureza](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_natureza_doc.py)
 * `20.mar` | `.py` | Script | [Relação de reuniões das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_reuniao.py)
 * `20.mar` | `.py` | Script | [Presença dos deputados nas comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_presenca.py)
