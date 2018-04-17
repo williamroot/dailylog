@@ -6,6 +6,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
+* `16.abr` | `.py` | Script | [Uma música aleatória de Belchior a cada duas horas](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py)
 * `20.mar` | `.py` | Script | [Relação de documentos na Assembleia Legislativa do Estado de São Paulo, por natureza](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_natureza_doc.py)
 * `20.mar` | `.py` | Script | [Relação de reuniões das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_reuniao.py)
 * `20.mar` | `.py` | Script | [Presença dos deputados nas comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_presenca.py)
