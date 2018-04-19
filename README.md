@@ -6,6 +6,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
+* `18.abr` | `.py` | Script | [Estudo de `turtle`: um desenho bem ridículo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py)
 * `17.abr` | `.ipynb` | Análise | [Sindicâncias e inquéritos na Corregedoria da GCM (atualização)](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb)
 * `16.abr` | `.py` | Script | [Uma música aleatória de Belchior a cada duas horas](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py)
 * `10.abr` | `.mov` | Reportagem | [Casos de roubos estão concentrados em delegacias do Centro e Zona Sul](https://globoplay.globo.com/v/6651908/programa/) **[Link externo]**
