@@ -7,7 +7,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 ### 2018
 
 * `14.jun` | `.mov` | Reportagem | [13 celulares são furtados por hora em São Paulo](https://globoplay.globo.com/v/6810205/programa/) **[Link externo]**
-* `04.jun` | `.mov` | Reportagem | [Apenas 1 em cada 5 processos administrativos na GCM termina em punição](https://globoplay.globo.com/v/6784525/programa/) **[Link externo]**
+* `04.jun` | `.mov` | Reportagem | [4 em 5 processos administrativos na GCM termina sem punição](https://globoplay.globo.com/v/6784525/programa/) **[Link externo]**
 * `30.mai` | `.mov` | Reportagem | [Câmara 'esconde' em PL aumento de 75% nas gratificações](https://globoplay.globo.com/v/6774532/programa/) **[Link externo]**
 * `08.mai` | `.mov` | Reportagem | [Preço do leite sobe em todas as regiões de São Paulo](https://globoplay.globo.com/v/6719181/programa/) **[Link externo]**
 * `25.abr` | `.mov` | Reportagem | [Prefeitura deve extinguir 190 linhas de ônibus](https://globoplay.globo.com/v/6688759/programa/) **[Link externo]**
