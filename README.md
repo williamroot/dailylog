@@ -2,10 +2,15 @@
 
 # Daily Log
 
-Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registros dos trabalhos de Rodolfo Viana.
+Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registros de trabalho
 
 ### 2018
 
+* `14.jun` | `.mov` | Reportagem | [13 celulares são furtados por hora em São Paulo](https://globoplay.globo.com/v/6810205/programa/) **[Link externo]**
+* `04.jun` | `.mov` | Reportagem | [Apenas 1 em cada 5 processos administrativos na GCM termina em punição](https://globoplay.globo.com/v/6784525/programa/) **[Link externo]**
+* `30.mai` | `.mov` | Reportagem | [Câmara 'esconde' em PL aumento de 75% nas gratificações](https://globoplay.globo.com/v/6774532/programa/) **[Link externo]**
+* `08.mai` | `.mov` | Reportagem | [Preço do leite sobe em todas as regiões de São Paulo](https://globoplay.globo.com/v/6719181/programa/) **[Link externo]**
+* `25.abr` | `.mov` | Reportagem | [Prefeitura deve extinguir 190 linhas de ônibus](https://globoplay.globo.com/v/6688759/programa/) **[Link externo]**
 * `18.abr` | `.py` | Script | [Estudo de `turtle`: um desenho bem ridículo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py)
 * `17.abr` | `.ipynb` | Análise | [Sindicâncias e inquéritos na Corregedoria da GCM (atualização)](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb)
 * `16.abr` | `.py` | Script | [Uma música aleatória de Belchior a cada duas horas](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py)
@@ -49,10 +54,14 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Produtor de reportagem da Rede Globo, com foco em análise de dados. Antes disso, como repórter independente, escreveu para o jornal Folha de S. Paulo, a revista piauí, o site Aos Fatos, entre outras publicações. Também colaborou com análises de dados em projetos de auditoria de contas públicas, como a Operação Serenata de Amor.
+Produtor de reportagem da Rede Globo, com foco em análise de dados. Professor convidado da disciplina Big Data e Jornalismo de Dados no curso de pós-graduação Jornalismo Contemporâneo da Universidade Presbiteriana Mackenzie.
 
-Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015, na categoria Gestão de Redes Sociais. Estudante de Python, SQL, R, JavaScript, estatística e data journalism. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
+Antes disso, foi repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da Operação Serenata de Amor, projeto de auditoria de contas públicas encampado pela Open Knowledge Brasil.
 
-Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br`. Para mensagens criptografadas, a chave pública é `C427 02B0 4F23 1DAF 359B 818C 41F7 F231 7A93 E6D5`.
+Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015, na categoria Gestão de Redes Sociais. 
+
+É estudante de Python, R, Julia, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
+
+Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br`.
 
 **Daily Log** é inspirado na [ideia de Zeh Fernandes](https://github.com/zehfernandes/dailylog/)
