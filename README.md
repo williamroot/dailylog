@@ -6,9 +6,11 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
+* `04.jul` | `.mov` | Reportagem | [10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade](https://globoplay.globo.com/v/6849804/programa/) **[Link externo]**
 * `14.jun` | `.mov` | Reportagem | [13 celulares são furtados por hora em São Paulo](https://globoplay.globo.com/v/6810205/programa/) **[Link externo]**
 * `04.jun` | `.mov` | Reportagem | [4 em 5 processos administrativos na GCM terminam sem punição](https://globoplay.globo.com/v/6784525/programa/) **[Link externo]**
 * `30.mai` | `.mov` | Reportagem | [Câmara 'esconde' em PL aumento de 75% nas gratificações](https://globoplay.globo.com/v/6774532/programa/) **[Link externo]**
+* `25.mai` | `.ipynb` | Análise | [Gastos de deputados estaduais com gráficas](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb)
 * `08.mai` | `.mov` | Reportagem | [Preço do leite sobe em todas as regiões de São Paulo](https://globoplay.globo.com/v/6719181/programa/) **[Link externo]**
 * `25.abr` | `.mov` | Reportagem | [Prefeitura deve extinguir 190 linhas de ônibus](https://globoplay.globo.com/v/6688759/programa/) **[Link externo]**
 * `18.abr` | `.py` | Script | [Estudo de `turtle`: um desenho bem ridículo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py)
@@ -26,9 +28,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 * `14.mar` | `.ipynb` | Análise | [Sindicâncias e inquéritos na Corregedoria da Guarda Civil Metropolitana](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-03-14-gcm_processos_administrativos.ipynb)
 * `11.mar` | `.py` | Script | [Lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_lotacao.py)
 * `11.mar` | `.py` | Script | [Histórico de cargos dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_cargo.py)
-* `11.mar` | `.py` | Script | [Gastos dos deputados estaduais](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_deputado_gasto.py)
 * `01.mar` | `.mov` | Reportagem | [Três vereadores gastaram quase meio milhão com mala direta em 2017](https://globoplay.globo.com/v/6543894/programa/) **[Link externo]**
-* `24.fev` | `.ipynb` | Análise | [Despesas de deputados estaduais com material gráfico](https://github.com/rodolfo-viana/globo/blob/master/analises/alesp/2018-02-24-gastos-deputados-sp.ipynb) **[Repositório privado]**
 * `10.fev` | `.ipynb` | Análise | [Despesas dos vereadores com correios](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-02-24-vereadores_correios.ipynb)
 * `05.fev` | `.mov` | Reportagem | [Cinco pessoas são presas por roubar celulares nos blocos de carnaval](https://globoplay.globo.com/v/6477808/programa/) **[Link externo]**
 * `26.jan` | `.mov` | Reportagem | [SP registrou 10 mil casos de furtos a mais em 2017 do que no ano anterior](https://globoplay.globo.com/v/6452520/) **[Link externo]**
