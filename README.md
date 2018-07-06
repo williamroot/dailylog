@@ -9,7 +9,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 * `04.jul` | `.mov` | :newspaper: | [10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade](https://globoplay.globo.com/v/6849804/programa/) **[Link externo]**
 * `14.jun` | `.mov` | :newspaper: | [13 celulares são furtados por hora em São Paulo](https://globoplay.globo.com/v/6810205/programa/) **[Link externo]**
 * `04.jun` | `.mov` | :newspaper: | [4 em 5 processos administrativos na GCM terminam sem punição](https://globoplay.globo.com/v/6784525/programa/) **[Link externo]**
-* `30.mai` | `.mov` | :newspaper: | [Câmara 'esconde' em PL aumento de 75% nas gratificações](https://globoplay.globo.com/v/6774532/programa/) **[Link externo]**
+* `30.mai` | `.mov  ` | :newspaper: | [Câmara 'esconde' em PL aumento de 75% nas gratificações](https://globoplay.globo.com/v/6774532/programa/) **[Link externo]**
 * `25.mai` | `.ipynb` | :bar_chart: | [Gastos de deputados estaduais com gráficas](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb)
 * `08.mai` | `.mov` | :newspaper: | [Preço do leite sobe em todas as regiões de São Paulo](https://globoplay.globo.com/v/6719181/programa/) **[Link externo]**
 * `25.abr` | `.mov` | :newspaper: | [Prefeitura deve extinguir 190 linhas de ônibus](https://globoplay.globo.com/v/6688759/programa/) **[Link externo]**
