@@ -6,16 +6,13 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
-* `04.jul` | `.mov` | :newspaper: | [10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade](https://globoplay.globo.com/v/6849804/programa/) **[Link externo]**
-* `14.jun` | `.mov` | :newspaper: | [13 celulares são furtados por hora em São Paulo](https://globoplay.globo.com/v/6810205/programa/) **[Link externo]**
-* `04.jun` | `.mov` | :newspaper: | [4 em 5 processos administrativos na GCM terminam sem punição](https://globoplay.globo.com/v/6784525/programa/) **[Link externo]**
-* `30.mai` | `.mov  ` | :newspaper: | [Câmara 'esconde' em PL aumento de 75% nas gratificações](https://globoplay.globo.com/v/6774532/programa/) **[Link externo]**
-* `25.mai` | `.ipynb` | :bar_chart: | [Gastos de deputados estaduais com gráficas](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb)
-* `08.mai` | `.mov` | :newspaper: | [Preço do leite sobe em todas as regiões de São Paulo](https://globoplay.globo.com/v/6719181/programa/) **[Link externo]**
-* `25.abr` | `.mov` | :newspaper: | [Prefeitura deve extinguir 190 linhas de ônibus](https://globoplay.globo.com/v/6688759/programa/) **[Link externo]**
-* `18.abr` | `.py` | :floppy_disk: | [Estudo de `turtle`: um desenho bem ridículo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py)
-* `17.abr` | `.ipynb` | :bar_chart: | [Sindicâncias e inquéritos na Corregedoria da GCM (atualização)](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb)
-* `16.abr` | `.py` | :floppy_disk: | [Uma música aleatória de Belchior a cada duas horas](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py)
+* `04.jul` | [reportagem](https://globoplay.globo.com/v/6849804/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb) | 10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade
+* `14.jun` | [reportagem](https://globoplay.globo.com/v/6810205/programa/) | 13 celulares são furtados por hora em São Paulo
+* `04.jun` | [reportagem](https://globoplay.globo.com/v/6784525/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb) | 4 em 5 processos administrativos na GCM terminam sem punição
+* `30.mai` | [reportagem](https://globoplay.globo.com/v/6774532/programa/) | Câmara 'esconde' em PL aumento de 75% nas gratificações
+* `25.abr` | [reportagem](https://globoplay.globo.com/v/6688759/programa/) | Prefeitura deve extinguir 190 linhas de ônibus
+* `18.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py) | Estudo de `turtle` básico
+* `16.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py) | Uma música aleatória de Belchior a cada duas horas
 * `10.abr` | `.mov` | :newspaper: | [Casos de roubos estão concentrados em delegacias do Centro e Zona Sul](https://globoplay.globo.com/v/6651908/programa/) **[Link externo]**
 * `09.abr` | `.mov` | :newspaper: | [Horário entre 17h e 19h tem maior índice de furto no metrô](https://globoplay.globo.com/v/6648976/programa/) **[Link externo]**
 * `09.abr` | `.mov` | :newspaper: | [Furtos na CPTM e no Metrô sobem 8%](https://globoplay.globo.com/v/6647496/programa/) **[Link externo]**
