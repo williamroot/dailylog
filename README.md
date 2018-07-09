@@ -13,16 +13,15 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 * `25.abr` | [reportagem](https://globoplay.globo.com/v/6688759/programa/) | Prefeitura deve extinguir 190 linhas de ônibus
 * `18.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py) | Estudo de `turtle` básico
 * `16.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py) | Uma música aleatória de Belchior a cada duas horas
-* `10.abr` | `.mov` | :newspaper: | [Casos de roubos estão concentrados em delegacias do Centro e Zona Sul](https://globoplay.globo.com/v/6651908/programa/) **[Link externo]**
-* `09.abr` | `.mov` | :newspaper: | [Horário entre 17h e 19h tem maior índice de furto no metrô](https://globoplay.globo.com/v/6648976/programa/) **[Link externo]**
-* `09.abr` | `.mov` | :newspaper: | [Furtos na CPTM e no Metrô sobem 8%](https://globoplay.globo.com/v/6647496/programa/) **[Link externo]**
-* `20.mar` | `.py` | :floppy_disk: | [Relação de documentos na Assembleia Legislativa do Estado de São Paulo, por natureza](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_natureza_doc.py)
-* `20.mar` | `.py` | :floppy_disk: | [Relação de reuniões das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_reuniao.py)
-* `20.mar` | `.py` | :floppy_disk: | [Presença dos deputados nas comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_presenca.py)
-* `20.mar` | `.py` | :floppy_disk: | [Relação de comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao.py)
+* `10.abr` | [reportagem](https://globoplay.globo.com/v/6651908/programa/) | Casos de roubos estão concentrados em delegacias do Centro e Zona Sul
+* `09.abr` | [reportagem](https://globoplay.globo.com/v/6648976/programa/) | Horário entre 17h e 19h tem maior índice de furto no metrô
+* `09.abr` | [reportagem](https://globoplay.globo.com/v/6647496/programa/) | Furtos na CPTM e no Metrô sobem 8%
+* `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_natureza_doc.py) | Relação de documentos na Alesp, por natureza
+* `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_reuniao.py) | Relação de reuniões das comissões na Alesp
+* `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_presenca.py) | Presença dos deputados nas comissões na Alesp
+* `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao.py) | Relação de comissões na Alesp
 * `20.mar` | `.py` | :floppy_disk: | [Relação dos membros das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_membro.py)
 * `20.mar` | `.py` | :floppy_disk: | [Deliberações nas comissões permanentes na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_deliberacao.py)
-* `14.mar` | `.ipynb` | :bar_chart: | [Sindicâncias e inquéritos na Corregedoria da Guarda Civil Metropolitana](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-03-14-gcm_processos_administrativos.ipynb)
 * `11.mar` | `.py` | :floppy_disk: | [Lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_lotacao.py)
 * `11.mar` | `.py` | :floppy_disk: | [Histórico de cargos dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_cargo.py)
 * `01.mar` | `.mov` | :newspaper: | [Três vereadores gastaram quase meio milhão com mala direta em 2017](https://globoplay.globo.com/v/6543894/programa/) **[Link externo]**
