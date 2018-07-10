@@ -20,16 +20,14 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 * `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_reuniao.py) | Relação de reuniões das comissões na Alesp
 * `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_presenca.py) | Presença dos deputados nas comissões na Alesp
 * `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao.py) | Relação de comissões na Alesp
-* `20.mar` | `.py` | :floppy_disk: | [Relação dos membros das comissões na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_membro.py)
-* `20.mar` | `.py` | :floppy_disk: | [Deliberações nas comissões permanentes na Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_deliberacao.py)
-* `11.mar` | `.py` | :floppy_disk: | [Lotação dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_lotacao.py)
-* `11.mar` | `.py` | :floppy_disk: | [Histórico de cargos dos funcionários da Assembleia Legislativa do Estado de São Paulo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_cargo.py)
-* `01.mar` | `.mov` | :newspaper: | [Três vereadores gastaram quase meio milhão com mala direta em 2017](https://globoplay.globo.com/v/6543894/programa/) **[Link externo]**
-* `10.fev` | `.ipynb` | :bar_chart: | [Despesas dos vereadores com correios](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-02-24-vereadores_correios.ipynb)
-* `05.fev` | `.mov` | :newspaper: | [Cinco pessoas são presas por roubar celulares nos blocos de carnaval](https://globoplay.globo.com/v/6477808/programa/) **[Link externo]**
-* `26.jan` | `.mov` | :newspaper: | [SP registrou 10 mil casos de furtos a mais em 2017 do que no ano anterior](https://globoplay.globo.com/v/6452520/) **[Link externo]**
-* `20.jan` | `.mov` | :newspaper: | [Maioria dos acidentes com morte em SP acontece no final de semana](https://globoplay.globo.com/v/6436485/) **[Link externo]**
-* `20.jan` | `.py` | :floppy_disk: | [Posts de páginas de Facebook](https://github.com/rodolfo-viana/globo/tree/master/scripts/fb_scraper) **[Repositório privado]**
+* `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_membro.py) | Relação dos membros das comissões na Alesp
+* `20.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_comissao_permanente_deliberacao.py) | Deliberações nas comissões permanentes na Alesp
+* `11.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_lotacao.py) | Lotação dos funcionários da Alesp
+* `11.mar` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/alesp_funcionario_cargo.py) | Histórico de cargos dos funcionários da Alesp
+* `01.mar` | [reportagem](https://globoplay.globo.com/v/6543894/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-02-24-vereadores_correios.ipynb) | Três vereadores gastaram quase meio milhão com mala direta em 2017
+* `05.fev` | [reportagem](https://globoplay.globo.com/v/6477808/programa/) | Furtos de celulares mais que triplicam durante Carnaval
+* `26.jan` | [reportagem](https://globoplay.globo.com/v/6452520/) | SP registrou 10 mil furtos a mais em 2017 do que no ano anterior
+* `20.jan` | [reportagem](https://globoplay.globo.com/v/6436485/) | Maioria das mortes no trânsito em SP acontece no final de semana
 
 ### 2017
 
