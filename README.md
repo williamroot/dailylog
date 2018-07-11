@@ -31,18 +31,15 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2017
 
-* `18.dez` | `.mov` | :newspaper: | [Balanço da Câmara e da Assembleia Legislativa](https://globoplay.globo.com/v/6365526/) **[Link externo]**
-* `18.dez` | `.mov` | :newspaper: | [Prefeitura leva 50% mais tempo para resolver problemas de zeladoria](https://globoplay.globo.com/v/6364186/) **[Link externo]**
-* `25.nov` | `.ipynb` | :bar_chart: | [Breve análise de gastos dos vereadores](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-11-25-porcentagem_gastos_vereadores_sp.ipynb)
-* `16.nov` | `.mov` | :newspaper: | [Polícia registra 201 crimes com armas de brinquedo em São Paulo este ano](http://g1.globo.com/jornal-nacional/edicoes/2017/11/16.html#!v/6294554) **[Link externo]**
-* `02.nov` | `.py` | :floppy_disk: | [Gastos dos vereadores + download de notas fiscais](https://github.com/rodolfo-viana/globo/blob/master/scripts/gastos-camara-sp/vereadores_sp_gastos_v2.py) **[Repositório privado]**
-* `30.out` | `.py` | :floppy_disk: | [Gastos dos vereadores](https://github.com/rodolfo-viana/globo/blob/master/scripts/gastos-camara-sp/vereadores_sp_gastos_v1.py) **[Repositório privado]**
-* `29.out` | `.py` | :floppy_disk: | [Tweets por hashtag](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/twitter_hashtag_scraping.py)
-* `28.out` | `.js` | :floppy_disk: | [Site pessoal](https://github.com/rodolfo-viana/rodolfo-viana.github.io) **[Repositório privado]**
-* `22.ago` | `.ipynb` | :bar_chart: | [Ocorrências registradas no SP156](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-08-22-atendimentos_sp156.ipynb)
-* `06.jul` | `.ipynb` | :bar_chart: | [Perfil da Câmara dos Deputados baseado nos gastos via Ceap](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-06-profile_on_congresspersons.ipynb)
-* `04.jul` | `.ipynb` | :bar_chart: | [Recursos recebidos por comitês da Califórnia](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-04-supporting_vs_opposing.ipynb)
-* `20.jun` | `.ipynb` | :bar_chart: | [Despesas dos deputados federais com aluguel de carros](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-06-20-expenses_on_car_rental.ipynb)
+* `18.dez` | [reportagem](https://globoplay.globo.com/v/6365526/) | Balanço da Câmara e da Assembleia Legislativa
+* `18.dez` | [reportagem](https://globoplay.globo.com/v/6364186/) | Prefeitura leva 50% mais tempo para resolver problemas de zeladoria
+* `02.nov` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_v2.py) | Gastos dos vereadores de São Paulo - registros e notas fiscais
+* `30.out` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_v1.py) | Gastos dos vereadores de São Paulo - registros
+* `29.out` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/twitter_hashtag_scraping.py) | Tweets por hashtag
+* `22.ago` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-08-22-atendimentos_sp156.ipynb) | Ocorrências registradas no SP156 por gestão
+* `06.jul` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-06-profile_on_congresspersons.ipynb) | Perfil da Câmara dos Deputados baseado nos gastos via Ceap
+* `04.jul` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-04-supporting_vs_opposing.ipynb) | Recursos recebidos por comitês da Califórnia
+* `20.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-06-20-expenses_on_car_rental.ipynb) | Despesas dos deputados federais com aluguel de carros
 
 # Sobre o autor
 
@@ -57,5 +54,3 @@ Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornali
 É estudante de Python, R, Julia, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
 
 Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br`.
-
-**Daily Log** é inspirado na [ideia de Zeh Fernandes](https://github.com/zehfernandes/dailylog/)
