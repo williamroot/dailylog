@@ -6,13 +6,13 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
-* `18.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP___2018-07-18-titanic_disaster.R) | WIP: Estudo de R com análise de desastre do Titanic
+* `18.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP___2018-07-18-titanic_disaster.R) | WIP: Estudo de `R` com análise de dados dos passageiros do Titanic
 * `04.jul` | [reportagem](https://globoplay.globo.com/v/6849804/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb) | 10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade
 * `14.jun` | [reportagem](https://globoplay.globo.com/v/6810205/programa/) | 13 celulares são furtados por hora em São Paulo
 * `04.jun` | [reportagem](https://globoplay.globo.com/v/6784525/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb) | 4 em 5 processos administrativos na GCM terminam sem punição
 * `30.mai` | [reportagem](https://globoplay.globo.com/v/6774532/programa/) | Câmara 'esconde' em PL aumento de 75% nas gratificações
 * `25.abr` | [reportagem](https://globoplay.globo.com/v/6688759/programa/) | Prefeitura deve extinguir 190 linhas de ônibus
-* `18.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py) | Estudo de `turtle` básico
+* `18.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py) | Estudo de `turtle` básico
 * `16.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py) | Uma música aleatória de Belchior a cada duas horas
 * `10.abr` | [reportagem](https://globoplay.globo.com/v/6651908/programa/) | Casos de roubos estão concentrados em delegacias do Centro e Zona Sul
 * `09.abr` | [reportagem](https://globoplay.globo.com/v/6648976/programa/) | Horário entre 17h e 19h tem maior índice de furto no metrô
