@@ -6,6 +6,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
+* `18.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP___2018-07-18-titanic_disaster.R) | WIP: Estudo de R com análise de desastre do Titanic
 * `04.jul` | [reportagem](https://globoplay.globo.com/v/6849804/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb) | 10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade
 * `14.jun` | [reportagem](https://globoplay.globo.com/v/6810205/programa/) | 13 celulares são furtados por hora em São Paulo
 * `04.jun` | [reportagem](https://globoplay.globo.com/v/6784525/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb) | 4 em 5 processos administrativos na GCM terminam sem punição
