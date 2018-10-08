@@ -46,12 +46,10 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Produtor de reportagem da Rede Globo, com foco em análise de dados. Professor convidado da disciplina Big Data e Jornalismo de Dados no curso de pós-graduação Jornalismo Contemporâneo da Universidade Presbiteriana Mackenzie.
+Produtor de reportagem da Rede Globo, com foco em análise de dados. Professor convidado da disciplina Big Data e Jornalismo de Dados na pós-graduação da Universidade Presbiteriana Mackenzie. Colaborador do projeto de auditoria de contas públicas Operação Serenata de Amor.
 
-Antes disso, foi repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da Operação Serenata de Amor, projeto de auditoria de contas públicas encampado pela Open Knowledge Brasil.
+Antes disso, foi repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da revista Superinteressante. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015. 
 
-Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015, na categoria Gestão de Redes Sociais. 
-
-É estudante de Python, R, Julia, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
+É estudante de Python, R, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
 
 Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br`.
