@@ -6,6 +6,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
+* `07.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/chicago_bikeshare_pt_resposta.py) | Análise de aluguel de bicicletas em Chicago (projeto do nanodegree Fundamentos de Data Science)
 * `05.out` | [dataviz](https://globoplay.globo.com/v/7065920/programa/) | Mapa de calor das campanhas a governador no estado de São Paulo
 * `19.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP__2018-07-19-titatic_disaster.ipynb) | WIP: Estudo de `R` com análise de dados dos passageiros do Titanic
 * `04.jul` | [reportagem](https://globoplay.globo.com/v/6849804/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb) | 10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade
@@ -47,7 +48,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Produtor de reportagem da Rede Globo, com foco em análise de dados. Professor convidado da disciplina Big Data e Jornalismo de Dados na pós-graduação da Universidade Presbiteriana Mackenzie. Colaborador do projeto de auditoria de contas públicas Operação Serenata de Amor.
+Produtor de reportagem da Rede Globo, com foco em análise de dados, e colaborador do projeto de auditoria de contas públicas Operação Serenata de Amor.
 
 Antes disso, foi repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da revista Superinteressante. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015. 
 
