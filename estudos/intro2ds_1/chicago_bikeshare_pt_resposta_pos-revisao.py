@@ -28,7 +28,7 @@ input("Aperte Enter para continuar...")
 # TAREFA 1
 # TODO: Imprima as primeiras 20 linhas usando um loop para identificar os dados.
 print("\n\nTAREFA 1: Imprimindo as primeiras 20 amostras")
-for i, line in enumerate(data_list[:20]):
+for i, line in enumerate(data_list[1:21]):
     print("Linha {}: {}".format(i + 1, line))
 
 # Vamos mudar o data_list para remover o cabeçalho dele.
@@ -42,7 +42,7 @@ input("Aperte Enter para continuar...")
 # TODO: Imprima o `gênero` das primeiras 20 linhas
 
 print("\nTAREFA 2: Imprimindo o gênero das primeiras 20 amostras")
-for i, line in enumerate(data_list[1:21]):
+for i, line in enumerate(data_list[:20]):
     print("Linha {}: {}".format(i + 1, line[6]))
 
 # Ótimo! Nós podemos pegar as linhas(samples) iterando com um for, e as colunas(features) por índices.
@@ -146,9 +146,9 @@ def most_popular_gender(data_list):
     """
     male, female = count_gender(data_list)
     answer = ""
-    if count_gender(data_list)[0] > count_gender(data_list)[1]:
+    if male > female:
         answer = "Male"
-    elif count_gender(data_list)[0] < count_gender(data_list)[1]:
+    elif male < female:
         answer = "Female"
     else:
         answer = "Equal"

@@ -42,7 +42,7 @@ input("Aperte Enter para continuar...")
 # TODO: Imprima o `gênero` das primeiras 20 linhas
 
 print("\nTAREFA 2: Imprimindo o gênero das primeiras 20 amostras")
-for i, line in enumerate(data_list[1:21]):
+for i, line in enumerate(data_list[:20]):
     print("Linha {}: {}".format(i + 1, line[6]))
 
 # Ótimo! Nós podemos pegar as linhas(samples) iterando com um for, e as colunas(features) por índices.
@@ -154,9 +154,9 @@ def most_popular_gender(data_list):
     return 'Equal' if male == female else ('Male' if male > female else 'Female')
     # ANOTAÇÃO DO RODOLFO: uma outra forma de fazer isso é:
     # answer = ""
-    # if count_gender(data_list)[0] > count_gender(data_list)[1]:
+    # if male > female:
     #     answer = "Male"
-    # elif count_gender(data_list)[0] < count_gender(data_list)[1]:
+    # elif male < female:
     #     answer = "Female"
     # else:
     #     answer = "Equal"
@@ -220,18 +220,15 @@ input("Aperte Enter para continuar...")
 # TODO: Ache a duração de viagem Mínima, Máxima, Média, e Mediana.
 # Você não deve usar funções prontas para isso, como max() e min().
 trip_duration_list = column_to_list(data_list, 2)
-min_trip = sorted(map(lambda x: int(x), trip_duration_list))[0]
-max_trip = sorted(map(lambda x: int(x), trip_duration_list))[-1]
-mean_trip = round(sum(map(lambda x: int(x), trip_duration_list)) / \
-            len(trip_duration_list))
+sorted_trip = sorted(map(int, trip_duration_list))
+min_trip = sorted_trip[0]
+max_trip = sorted_trip[-1]
+mean_trip = round(sum(sorted_trip) / len(trip_duration_list))
 if len(trip_duration_list) % 2 == 0:
-    median_trip = (sorted(map(lambda x: int(x), trip_duration_list))\
-                  [int(len(trip_duration_list) / 2) - 1] + \
-                  sorted(map(lambda x: int(x), trip_duration_list))\
-                  [int(len(trip_duration_list) / 2) + 1]) / 2
+    median_trip = (sorted_trip)[int(len(trip_duration_list) / 2) - 1] + \
+                  sorted_trip[int(len(trip_duration_list) / 2) + 1]) / 2
 else:
-    median_trip = sorted(map(lambda x: int(x), trip_duration_list))\
-                  [int(len(trip_duration_list) / 2) + 1]
+    median_trip = sorted_trip[int(len(trip_duration_list) / 2) + 1]
 
 print("\nTAREFA 9: Imprimindo o mínimo, máximo, média, e mediana")
 print("Min: ", min_trip, "Max: ", max_trip, "Média: ", mean_trip, "Mediana: ", median_trip)
