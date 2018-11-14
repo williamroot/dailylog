@@ -102,12 +102,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-
-# Data stuff 
-*.csv
-*.xls
-*.xlsx
-*.txt
-*.tsv
-data/
-*/data
