@@ -1,0 +1,105 @@
+genero,ano,faturamento
+Alternative,2012,3.96
+Alternative,2011,3.96
+Alternative,2010,5.94
+Alternative & Punk,2013,55.44
+Alternative & Punk,2012,38.61
+Alternative & Punk,2011,45.54
+Alternative & Punk,2010,39.6
+Alternative & Punk,2009,62.37
+Blues,2013,9.9
+Blues,2012,8.91
+Blues,2011,19.8
+Blues,2010,10.89
+Blues,2009,10.89
+Bossa Nova,2013,3.96
+Bossa Nova,2011,7.92
+Bossa Nova,2010,1.98
+Bossa Nova,2009,0.99
+Classical,2012,16.83
+Classical,2011,9.9
+Classical,2010,13.86
+Comedy,2012,11.94
+Comedy,2011,1.99
+Comedy,2010,3.98
+Drama,2013,9.95
+Drama,2012,17.91
+Drama,2011,11.94
+Drama,2010,17.91
+Easy Listening,2013,1.98
+Easy Listening,2011,2.97
+Easy Listening,2010,1.98
+Easy Listening,2009,2.97
+Electronica/Dance,2013,0.99
+Electronica/Dance,2012,2.97
+Electronica/Dance,2011,1.98
+Electronica/Dance,2010,3.96
+Electronica/Dance,2009,1.98
+Heavy Metal,2013,1.98
+Heavy Metal,2012,2.97
+Heavy Metal,2010,2.97
+Heavy Metal,2009,3.96
+Hip Hop/Rap,2013,3.96
+Hip Hop/Rap,2012,3.96
+Hip Hop/Rap,2011,3.96
+Hip Hop/Rap,2010,2.97
+Hip Hop/Rap,2009,1.98
+Jazz,2013,21.78
+Jazz,2012,5.94
+Jazz,2011,15.84
+Jazz,2010,15.84
+Jazz,2009,19.8
+Latin,2013,79.2
+Latin,2012,63.36
+Latin,2011,80.19
+Latin,2010,77.22
+Latin,2009,82.17
+Metal,2013,55.44
+Metal,2012,65.34
+Metal,2011,25.74
+Metal,2010,53.46
+Metal,2009,61.38
+Pop,2012,7.92
+Pop,2011,9.9
+Pop,2010,8.91
+Pop,2009,0.99
+R&B/Soul,2013,6.93
+R&B/Soul,2012,9.9
+R&B/Soul,2011,6.93
+R&B/Soul,2010,8.91
+R&B/Soul,2009,7.92
+Reggae,2013,2.97
+Reggae,2012,5.94
+Reggae,2011,7.92
+Reggae,2010,6.93
+Reggae,2009,5.94
+Rock,2013,174.24
+Rock,2012,162.36
+Rock,2011,156.42
+Rock,2010,155.43
+Rock,2009,178.2
+Rock And Roll,2012,1.98
+Rock And Roll,2011,0.99
+Rock And Roll,2010,1.98
+Rock And Roll,2009,0.99
+Sci Fi & Fantasy,2012,11.94
+Sci Fi & Fantasy,2011,17.91
+Sci Fi & Fantasy,2010,9.95
+Science Fiction,2013,1.99
+Science Fiction,2012,1.99
+Science Fiction,2011,3.98
+Science Fiction,2010,3.98
+Soundtrack,2013,2.97
+Soundtrack,2012,3.96
+Soundtrack,2011,4.95
+Soundtrack,2010,3.96
+Soundtrack,2009,3.96
+TV Shows,2013,13.93
+TV Shows,2012,25.87
+TV Shows,2011,27.86
+TV Shows,2010,25.87
+World,2013,2.97
+World,2012,2.97
+World,2011,0.99
+World,2010,2.97
+World,2009,2.97
