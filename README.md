@@ -49,10 +49,10 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Produtor de reportagem da Rede Globo, com foco em análise de dados, e colaborador do projeto de auditoria de contas públicas Operação Serenata de Amor.
+Cientista de dados na Rede Globo.
 
-Antes disso, foi repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da revista Superinteressante. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015. 
+Antes disso, foi produtor com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da revista Superinteressante. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
 
-É estudante de Python, R, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
+É colaborador da Operação Serenata de Amor, projeto de auditoria de contas públicas por meio de machine learning. Estuda Python, R, SQL, data journalism, data visualization e estatística. É membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
 
-Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br`.
+Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br` ou mensagem privada para `@rodolfoviana` no Twitter.
