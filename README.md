@@ -6,6 +6,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
+* `24.dez` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos.py) | Download dos gastos dos vereadores de São Paulo
 * `22.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/titanic_pos-revisao.ipynb) | Análise exploratória dos passageiros do Titanic (projeto do nanodegree Fundamentos de Data Science)
 * `07.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/chicago_bikeshare_pt_resposta_pos-revisao.py) | Análise de aluguel de bicicletas em Chicago (projeto do nanodegree Fundamentos de Data Science)
 * `05.out` | [dataviz](https://globoplay.globo.com/v/7065920/programa/) | Mapa de calor das campanhas a governador no estado de São Paulo
@@ -37,8 +38,6 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 * `18.dez` | [reportagem](https://globoplay.globo.com/v/6365526/) | Balanço da Câmara e da Assembleia Legislativa
 * `18.dez` | [reportagem](https://globoplay.globo.com/v/6364186/) | Prefeitura leva 50% mais tempo para resolver problemas de zeladoria
-* `02.nov` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_v2.py) | Gastos dos vereadores de São Paulo - registros e notas fiscais
-* `30.out` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_v1.py) | Gastos dos vereadores de São Paulo - registros
 * `29.out` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/twitter_hashtag_scraping.py) | Tweets por hashtag
 * `22.ago` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-08-22-atendimentos_sp156.ipynb) | Ocorrências registradas no SP156 por gestão
 * `06.jul` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-06-profile_on_congresspersons.ipynb) | Perfil da Câmara dos Deputados baseado nos gastos via Ceap
