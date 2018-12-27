@@ -6,6 +6,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 ### 2018
 
+* `26.dez` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_2/scraping-exercise2.ipynb) | Raspagem de dados: salários dos servidores da Alesp
 * `24.dez` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos.py) | Download dos gastos dos vereadores de São Paulo
 * `22.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/titanic_pos-revisao.ipynb) | Análise exploratória dos passageiros do Titanic (projeto do nanodegree Fundamentos de Data Science)
 * `07.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/chicago_bikeshare_pt_resposta_pos-revisao.py) | Análise de aluguel de bicicletas em Chicago (projeto do nanodegree Fundamentos de Data Science)
@@ -50,8 +51,10 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 
 Cientista de dados na Rede Globo.
 
-Antes disso, foi produtor com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da revista Superinteressante. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
+Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da revista Superinteressante. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
 
-É colaborador da Operação Serenata de Amor, projeto de auditoria de contas públicas por meio de machine learning. Estuda Python, R, SQL, data journalism, data visualization e estatística. É membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
+Colaborador da Operação Serenata de Amor, projeto de auditoria de contas públicas por meio de machine learning. Estudante de Python, R, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
 
-Caso queira entrar em contato, mande e-mail para `rodolfo@rodolfoviana.com.br` ou mensagem privada para `@rodolfoviana` no Twitter.
+E-mail: `rodolfo@rodolfoviana.com.br`
+Twitter: `@rodolfoviana`
+LinkedIn: `linkedin.com/in/rodolfoviana`
