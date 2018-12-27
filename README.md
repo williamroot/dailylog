@@ -55,6 +55,6 @@ Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repó
 
 Colaborador da Operação Serenata de Amor, projeto de auditoria de contas públicas por meio de machine learning. Estudante de Python, R, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
 
-E-mail: `rodolfo@rodolfoviana.com.br`
-Twitter: `@rodolfoviana`
+E-mail: `rodolfo@rodolfoviana.com.br`<br>
+Twitter: `@rodolfoviana`<br>
 LinkedIn: `linkedin.com/in/rodolfoviana`
