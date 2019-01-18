@@ -2,7 +2,12 @@
 
 # Daily Log
 
-Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registros de trabalho
+Projetos, scripts, análises, reportagens baseadas em dados, notebooks de estudo e registros de trabalho
+
+### 2019
+
+* `16.jan` | [projeto](https://github.com/rodolfo-viana/watchdog) | Watchdog: Acompanhamento de potenciais robôs de Twitter por meio de análises de metadados __[WIP; privado]__
+* `08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp __[WIP]__
 
 ### 2018
 
@@ -11,7 +16,7 @@ Scripts, análises, reportagens baseadas em dados, notebooks de estudo e registr
 * `22.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/titanic_pos-revisao.ipynb) | Análise exploratória dos passageiros do Titanic (projeto do nanodegree Fundamentos de Data Science)
 * `07.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/chicago_bikeshare_pt_resposta_pos-revisao.py) | Análise de aluguel de bicicletas em Chicago (projeto do nanodegree Fundamentos de Data Science)
 * `05.out` | [dataviz](https://globoplay.globo.com/v/7065920/programa/) | Mapa de calor das campanhas a governador no estado de São Paulo
-* `19.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP__2018-07-19-titatic_disaster.ipynb) | WIP: Estudo de `R` com análise de dados dos passageiros do Titanic
+* `19.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP__2018-07-19-titatic_disaster.ipynb) | Estudo de `R` com análise de dados dos passageiros do Titanic
 * `04.jul` | [reportagem](https://globoplay.globo.com/v/6849804/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb) | 10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade
 * `14.jun` | [reportagem](https://globoplay.globo.com/v/6810205/programa/) | 13 celulares são furtados por hora em São Paulo
 * `04.jun` | [reportagem](https://globoplay.globo.com/v/6784525/programa/) | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb) | 4 em 5 processos administrativos na GCM terminam sem punição
@@ -55,6 +60,6 @@ Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repó
 
 Colaborador da Operação Serenata de Amor, projeto de auditoria de contas públicas por meio de machine learning. Estudante de Python, R, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
 
-E-mail: `rodolfo@rodolfoviana.com.br`<br>
+E-mail: `rodolfoviana@protonmail.com`<br>
 Twitter: `@rodolfoviana`<br>
 LinkedIn: `linkedin.com/in/rodolfoviana`
