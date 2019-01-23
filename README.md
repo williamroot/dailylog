@@ -6,7 +6,7 @@ Projetos, scripts, análises, reportagens baseadas em dados, notebooks de estudo
 
 ### 2019
 
-* `16.jan` | [projeto](https://github.com/rodolfo-viana/watchdog) | Watchdog: Acompanhamento de potenciais robôs de Twitter por meio de análises de metadados __[WIP; privado]__
+* `16 a 22.jan` | [projeto](https://github.com/rodolfo-viana/watchdog) | Watchdog: Acompanhamento de potenciais robôs de Twitter por meio de análises de metadados
 * `08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp __[WIP]__
 
 ### 2018
@@ -56,9 +56,9 @@ Projetos, scripts, análises, reportagens baseadas em dados, notebooks de estudo
 
 Cientista de dados na Rede Globo.
 
-Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e da revista Superinteressante. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
+Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e de publicações da Editora Abril. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
 
-Colaborador da Operação Serenata de Amor, projeto de auditoria de contas públicas por meio de machine learning. Estudante de Python, R, SQL, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
+Estudante de Python, R, SQL, machine learning, NLP, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
 
 E-mail: `rodolfoviana@protonmail.com`<br>
 Twitter: `@rodolfoviana`<br>
