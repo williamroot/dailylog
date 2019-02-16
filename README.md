@@ -7,9 +7,9 @@ Projetos, scripts, análises, reportagens baseadas em dados, notebooks de estudo
 ### 2019
 
 * `15.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/deputados_federais_gastos.py) | Download dos gastos na cota parlamentar da Câmara dos Deputados
-* `13.fev` | [Análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-validacao_dados_resultado.ipynb) | Validação dos dados do ProUni
-* `13.fev` | [Análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-carol_moreno.ipynb) | Vagas não preenchidas pela USP no Sisu
-* `12.fev` | [Análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-12-carol_moreno.ipynb) | Alunos cotistas que passariam na ampla concorrência do Sisu
+* `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-validacao_dados_resultado.ipynb) | Validação dos dados do ProUni
+* `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-carol_moreno.ipynb) | Vagas não preenchidas pela USP no Sisu
+* `12.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-12-carol_moreno.ipynb) | Alunos cotistas que passariam na ampla concorrência do Sisu
 * `16 a 22.jan` | [projeto](https://github.com/rodolfo-viana/watchdog) | Watchdog: Acompanhamento de potenciais robôs de Twitter por meio de análises de metadados
 * `08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp __[WIP]__
 
