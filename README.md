@@ -6,6 +6,7 @@ Projetos, scripts, análises, reportagens baseadas em dados, notebooks de estudo
 
 ### 2019
 
+* `18.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/scraper_sisu_usp_resultados.py) | Raspador de aprovados na USP pelo Sisu
 * `15.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/deputados_federais_gastos.py) | Download dos gastos na cota parlamentar da Câmara dos Deputados
 * `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-validacao_dados_resultado.ipynb) | Validação dos dados do ProUni
 * `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-carol_moreno.ipynb) | Vagas não preenchidas pela USP no Sisu
