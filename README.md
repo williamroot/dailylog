@@ -6,8 +6,9 @@ Projetos, scripts, análises, reportagens baseadas em dados, notebooks de estudo
 
 ### 2019
 
-* `26.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/fetch_bf_saques.py) | Buscador de dados de saques do Bolsa Família
-* `26.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/fetch_bf_pgto.py) | Buscador de dados de pagamentos do Bolsa Família
+* `28.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_pgto_validacao.py) | Buscador de dados do Bolsa Família por amostragem de cidades
+* `26.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_saques.py) | Buscador de dados de saques do Bolsa Família
+* `26.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_pgto.py) | Buscador de dados de pagamentos do Bolsa Família
 * `18.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/scraper_sisu_usp_resultados.py) | Raspador de aprovados na USP pelo Sisu
 * `15.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/deputados_federais_gastos.py) | Download dos gastos na cota parlamentar da Câmara dos Deputados
 * `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-validacao_dados_resultado.ipynb) | Validação dos dados do ProUni
