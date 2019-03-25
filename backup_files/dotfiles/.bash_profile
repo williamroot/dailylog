@@ -1,5 +1,9 @@
 # ~/.bash_profile
 
+# -------------
+# PROMPT SETUP
+# -------------
+
 # Update path
 export PATH="/usr/bin:$PATH";
 export PATH="/usr/sbin:$PATH";
@@ -25,7 +29,7 @@ shopt -s histappend
 # Number of lines or commands stored in memory in a history list while your bash session is ongoing
 HISTSIZE=10000
 
-# The maximum number of lines contained in the history file
+# Ignore the maximum number of lines contained in the history file
 HISTFILESIZE=
 
 # Check the window size after each command and, if necessary, update the values of lines and columns
@@ -46,9 +50,6 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-    # We have color support; assume it's compliant with Ecma-48
-    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-    # a case would tend to support setf rather than setaf.)
     color_prompt=yes
     else
     color_prompt=
@@ -93,16 +94,7 @@ cusgrn="$(tput setaf 36)$(tput bold)"
 cuscyn="$(tput setaf 42)$(tput bold)"
 cusblu="$(tput setaf 48)$(tput bold)"
 
-# Functions
-# Makeenv: create a folder with .env env
-function mkenv() {
-    cd ~/Documents/Github/
-    mkdir $1
-    cd $1
-    virtualenv .env
-}
-
-# Git Aware Prompt: clone from Git Aware Prompt
+# Function: Git Aware Prompt (for avoiding remote GAP file)
 find_git_branch() {
   local branch
   if branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null); then
@@ -151,13 +143,30 @@ xterm*|rxvt*)
     ;;
 esac
 
-# Enable color support of ls and also add handy aliases
+# ---------------------
+# FUNCTIONS AND ALIASES
+# ---------------------
+
+# Aliases for Python
+alias python=python3
+alias pip=pip3
+
+# Aliases for Nove de Julho
+alias ndj-on='cd ~/Documents/Github/novedejulho && source bin/activate' # Activate Nove de Julho
+alias ndj-off='cd ~/Documents/Github/novedejulho && deactivate $$ cd ~' # Deactivate Nove de Julho
+
+# Makeenv: function to create a folder with .env env
+function mkenv() {
+    cd ~/Documents/Github/
+    mkdir $1
+    cd $1
+    virtualenv .env
+}
+
+# Color support of ls and grep
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
-
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
@@ -167,27 +176,11 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias python=python3
-alias pip=pip3
-alias ndj-on='cd ~/Documents/Github/novedejulho && source bin/activate' # Activate Nove de Julho
-alias ndj-off='cd ~/Documents/Github/novedejulho && deactivate $$ cd ~' # Deactivate Nove de Julho
 
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
+# Alert for long running commands.  Use like: $ sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
+# Programmable completion features
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
