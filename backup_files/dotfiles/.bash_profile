@@ -1,6 +1,6 @@
 # ~/.bash_profile
 
-# Path
+# Update path
 export PATH="/usr/bin:$PATH";
 export PATH="/usr/sbin:$PATH";
 export PATH="$HOME/.local/bin:$PATH";
@@ -16,42 +16,33 @@ case $- in
       *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
+# Avoid duplicate lines or lines starting with space in the history
 HISTCONTROL=ignoreboth
 
-# append to the history file, don't overwrite it
+# Append to the history file instead of overwriting it
 shopt -s histappend
 
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+# Number of lines or commands stored in memory in a history list while your bash session is ongoing
 HISTSIZE=10000
-HISTFILESIZE=2000
 
-# check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
+# The maximum number of lines contained in the history file
+HISTFILESIZE=
+
+# Check the window size after each command and, if necessary, update the values of lines and columns
 shopt -s checkwinsize
 
-# If set, the pattern "**" used in a pathname expansion context will
-# match all files and zero or more directories and subdirectories.
-#shopt -s globstar
-
-# make less more friendly for non-text input files, see lesspipe(1)
+# Make less more friendly for non-text input files
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-# set variable identifying the chroot you work in (used in the prompt below)
+# Set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-# set a fancy prompt (non-color, unless we know we "want" color)
+# Set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
-
-# uncomment for a colored prompt, if the terminal has the capability; turned
-# off by default to not distract the user: the focus in a terminal window
-# should be on the output of commands, not on the prompt
-#force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -64,8 +55,7 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-# Colors
-# Some cloned from Git Aware, some customized ones
+# Colors (some cloned from Git Aware Prompt, some customized ones)
 txtblk="$(tput setaf 0 2>/dev/null || echo '\e[0;30m')"  # Black
 txtred="$(tput setaf 1 2>/dev/null || echo '\e[0;31m')"  # Red
 txtgrn="$(tput setaf 2 2>/dev/null || echo '\e[0;32m')"  # Green
@@ -104,7 +94,15 @@ cuscyn="$(tput setaf 42)$(tput bold)"
 cusblu="$(tput setaf 48)$(tput bold)"
 
 # Functions
-# Cloned from Git Aware
+# Makeenv: create a folder with .env env
+function mkenv() {
+    cd ~/Documents/Github/
+    mkdir $1
+    cd $1
+    virtualenv .env
+}
+
+# Git Aware Prompt: clone from Git Aware Prompt
 find_git_branch() {
   local branch
   if branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null); then
@@ -128,7 +126,7 @@ find_git_dirty() {
 
 PROMPT_COMMAND="find_git_branch; find_git_dirty; $PROMPT_COMMAND"
 
-# Testing prompt customization
+# Initial info lines
 echo ${cusgrn}"Operating system"${txtrst} ${bldwht}$(uname -o)${txtrst}
 echo ${cusgrn}"Distribution"${txtrst} ${bldwht}$(lsb_release -d -s)${txtrst}
 echo ${cusgrn}"Kernel"${txtrst} ${bldwht}$(uname -s -r)${txtrst}
@@ -136,6 +134,7 @@ echo ${cusgrn}"Processor arch"${txtrst} ${bldwht}$(uname -p)${txtrst}
 echo ${cusgrn}"Uptime"${txtrst} ${bldwht}$(uptime -p)${txtrst}
 echo ${cusgrn}"Date"${txtrst} ${bldwht}$(date "+%A, %d de %B de %Y, %R")${txtrst}
 
+# Command prompt
 if [ "$color_prompt" = yes ]; then
     PS1="${debian_chroot:+($debian_chroot)}\n\[${cusgrn}\]\u\[${txtrst}\] \[${txtwht}\]at\[${txtrst}\] \[${cuscyn}\]\h\[${txtrst}\] \[${txtwht}\]in\[${txtrst}\] \[${cusblu}\]\W\[${txtrst}\] \$git_branch\$git_dirty\n\[${txtwht}\]\$\[${txtrst}\] "
 else
@@ -143,7 +142,7 @@ else
 fi
 unset color_prompt force_color_prompt
 
-# If this is an xterm set the title to user@host:dir
+# Use this if it is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
     PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
@@ -152,7 +151,7 @@ xterm*|rxvt*)
     ;;
 esac
 
-# enable color support of ls and also add handy aliases
+# Enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
@@ -164,15 +163,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases
+# Some other aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-
-# other aliases for personal use
 alias python=python3
 alias pip=pip3
 alias ndj-on='cd ~/Documents/Github/novedejulho && source bin/activate' # Activate Nove de Julho
