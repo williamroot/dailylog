@@ -1,8 +1,12 @@
 # ~/.bashrc
 
-# -------------
+# Third-party codes:
+# - The Fuck (https://github.com/nvbn/thefuck)
+# - Git Aware Prompt (https://github.com/jimeh/git-aware-prompt)
+
+# ------------
 # PROMPT SETUP
-# -------------
+# ------------
 
 # Update path
 export PATH="/usr/bin:$PATH";
@@ -60,42 +64,45 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 # Colors (some cloned from Git Aware Prompt, some customized ones)
-txtblk="$(tput setaf 0 2>/dev/null || echo '\e[0;30m')"  # Black
-txtred="$(tput setaf 1 2>/dev/null || echo '\e[0;31m')"  # Red
-txtgrn="$(tput setaf 2 2>/dev/null || echo '\e[0;32m')"  # Green
-txtylw="$(tput setaf 3 2>/dev/null || echo '\e[0;33m')"  # Yellow
-txtblu="$(tput setaf 4 2>/dev/null || echo '\e[0;34m')"  # Blue
-txtpur="$(tput setaf 5 2>/dev/null || echo '\e[0;35m')"  # Purple
-txtcyn="$(tput setaf 6 2>/dev/null || echo '\e[0;36m')"  # Cyan
-txtwht="$(tput setaf 7 2>/dev/null || echo '\e[0;37m')"  # White
-bldblk="$(tput setaf 0 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;30m')"  # Black
-bldred="$(tput setaf 1 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;31m')"  # Red
-bldgrn="$(tput setaf 2 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;32m')"  # Green
-bldylw="$(tput setaf 3 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;33m')"  # Yellow
-bldblu="$(tput setaf 4 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;34m')"  # Blue
-bldpur="$(tput setaf 5 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;35m')"  # Purple
-bldcyn="$(tput setaf 6 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;36m')"  # Cyan
-bldwht="$(tput setaf 7 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;37m')"  # White
-undblk="$(tput setaf 0 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;30m')"  # Black
-undred="$(tput setaf 1 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;31m')"  # Red
-undgrn="$(tput setaf 2 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;32m')"  # Green
-undylw="$(tput setaf 3 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;33m')"  # Yellow
-undblu="$(tput setaf 4 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;34m')"  # Blue
-undpur="$(tput setaf 5 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;35m')"  # Purple
-undcyn="$(tput setaf 6 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;36m')"  # Cyan
-undwht="$(tput setaf 7 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;37m')"  # White
-bakblk="$(tput setab 0 2>/dev/null || echo '\e[40m')"  # Black
-bakred="$(tput setab 1 2>/dev/null || echo '\e[41m')"  # Red
-bakgrn="$(tput setab 2 2>/dev/null || echo '\e[42m')"  # Green
-bakylw="$(tput setab 3 2>/dev/null || echo '\e[43m')"  # Yellow
-bakblu="$(tput setab 4 2>/dev/null || echo '\e[44m')"  # Blue
-bakpur="$(tput setab 5 2>/dev/null || echo '\e[45m')"  # Purple
-bakcyn="$(tput setab 6 2>/dev/null || echo '\e[46m')"  # Cyan
-bakwht="$(tput setab 7 2>/dev/null || echo '\e[47m')"  # White
-txtrst="$(tput sgr 0 2>/dev/null || echo '\e[0m')" # Text Reset
+txtblk="$(tput setaf 0 2>/dev/null || echo '\e[0;30m')"
+txtred="$(tput setaf 1 2>/dev/null || echo '\e[0;31m')"
+txtgrn="$(tput setaf 2 2>/dev/null || echo '\e[0;32m')"
+txtylw="$(tput setaf 3 2>/dev/null || echo '\e[0;33m')"
+txtblu="$(tput setaf 4 2>/dev/null || echo '\e[0;34m')"
+txtpur="$(tput setaf 5 2>/dev/null || echo '\e[0;35m')"
+txtcyn="$(tput setaf 6 2>/dev/null || echo '\e[0;36m')"
+txtwht="$(tput setaf 7 2>/dev/null || echo '\e[0;37m')"
+bldblk="$(tput setaf 0 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;30m')"
+bldred="$(tput setaf 1 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;31m')"
+bldgrn="$(tput setaf 2 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;32m')"
+bldylw="$(tput setaf 3 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;33m')"
+bldblu="$(tput setaf 4 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;34m')"
+bldpur="$(tput setaf 5 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;35m')"
+bldcyn="$(tput setaf 6 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;36m')"
+bldwht="$(tput setaf 7 2>/dev/null)$(tput bold 2>/dev/null || echo '\e[1;37m')"
+undblk="$(tput setaf 0 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;30m')"
+undred="$(tput setaf 1 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;31m')"
+undgrn="$(tput setaf 2 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;32m')"
+undylw="$(tput setaf 3 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;33m')"
+undblu="$(tput setaf 4 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;34m')"
+undpur="$(tput setaf 5 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;35m')"
+undcyn="$(tput setaf 6 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;36m')"
+undwht="$(tput setaf 7 2>/dev/null)$(tput smul 2>/dev/null || echo '\e[4;37m')"
+bakblk="$(tput setab 0 2>/dev/null || echo '\e[40m')"
+bakred="$(tput setab 1 2>/dev/null || echo '\e[41m')"
+bakgrn="$(tput setab 2 2>/dev/null || echo '\e[42m')"
+bakylw="$(tput setab 3 2>/dev/null || echo '\e[43m')"
+bakblu="$(tput setab 4 2>/dev/null || echo '\e[44m')"
+bakpur="$(tput setab 5 2>/dev/null || echo '\e[45m')"
+bakcyn="$(tput setab 6 2>/dev/null || echo '\e[46m')"
+bakwht="$(tput setab 7 2>/dev/null || echo '\e[47m')"
+txtrst="$(tput sgr 0 2>/dev/null || echo '\e[0m')"
 cusgrn="$(tput setaf 36)$(tput bold)"
 cuscyn="$(tput setaf 42)$(tput bold)"
 cusblu="$(tput setaf 48)$(tput bold)"
+
+# Date and time
+echo ${bldwht}$(date "+%A, %d de %B de %Y, %R")${txtrst}
 
 # Function: Git Aware Prompt (for avoiding remote GAP file)
 find_git_branch() {
@@ -120,14 +127,6 @@ find_git_dirty() {
 }
 
 PROMPT_COMMAND="find_git_branch; find_git_dirty; $PROMPT_COMMAND"
-
-# Initial info lines
-echo ${cusgrn}"Operating system"${txtrst} ${bldwht}$(uname -o)${txtrst}
-echo ${cusgrn}"Distribution"${txtrst} ${bldwht}$(lsb_release -d -s)${txtrst}
-echo ${cusgrn}"Kernel"${txtrst} ${bldwht}$(uname -s -r)${txtrst}
-echo ${cusgrn}"Processor arch"${txtrst} ${bldwht}$(uname -p)${txtrst}
-echo ${cusgrn}"Uptime"${txtrst} ${bldwht}$(uptime -p)${txtrst}
-echo ${cusgrn}"Date"${txtrst} ${bldwht}$(date "+%A, %d de %B de %Y, %R")${txtrst}
 
 # Command prompt
 if [ "$color_prompt" = yes ]; then
@@ -161,15 +160,12 @@ alias pip=pip3
 alias ndj-on='cd ~/Documents/Github/novedejulho && source bin/activate' # Activate Nove de Julho
 alias ndj-off='cd ~/Documents/Github/novedejulho && deactivate $$ cd ~' # Deactivate Nove de Julho
 
-# Makeenv: function to create a folder with .env env
+# Mkenv: function to create a folder with environment named .env
 function mkenv() {
-    cd ~/Documents/Github/
-    mkdir $1
-    cd $1
-    virtualenv .env
+    cd ~/Documents/Github/ && mkdir $1 && cd $1 && virtualenv .env
 }
 
-# Color support of ls and grep
+# Aliases for ls and grep (some with color support)
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
@@ -178,7 +174,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# Some other aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -186,7 +181,10 @@ alias l='ls -CF'
 # Alert for long running commands.  Use like: $ sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Programmable completion features
+# ---------------
+# BASH COMPLETION
+# ---------------
+
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
@@ -194,4 +192,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
