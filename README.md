@@ -2,10 +2,12 @@
 
 # Daily Log
 
-Projetos, scripts, análises, notebooks de estudo e registros de trabalho
+Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registros de trabalho
 
 ### 2019
 
+* `27.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/dotfiles) | Arquivos de configuração do bash
+* `26.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/sublime_text_3) | Arquivos de configuração do ST3
 * `28.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_pgto_validacao.py) | Buscador de dados do Bolsa Família por amostragem de cidades
 * `26.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_saques.py) | Buscador de dados de saques do Bolsa Família
 * `26.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_pgto.py) | Buscador de dados de pagamentos do Bolsa Família
