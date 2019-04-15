@@ -17,7 +17,7 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 * `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-validacao_dados_resultado.ipynb) | Validação dos dados do ProUni
 * `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-carol_moreno.ipynb) | Vagas não preenchidas pela USP no Sisu
 * `12.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-12-carol_moreno.ipynb) | Alunos cotistas que passariam na ampla concorrência do Sisu
-* `16 a 22.jan` | [projeto](https://github.com/rodolfo-viana/watchdog) | Watchdog: Acompanhamento de potenciais robôs de Twitter por meio de análises de metadados
+* `16 a 22.jan` | [projeto](https://github.com/rodolfo-viana/watchdog) | Watchdog: Acompanhamento de potenciais bots por meio de análises de metadados
 * `08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp __[WIP]__
 
 ### 2018
