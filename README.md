@@ -6,6 +6,7 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ### 2019
 
+* `11.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_update.py) | Buscador dados do Bolsa Família, com atualização automática mensal
 * `27.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/dotfiles) | Arquivos de configuração do bash
 * `26.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/sublime_text_3) | Arquivos de configuração do ST3
 * `28.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_pgto_validacao.py) | Buscador de dados do Bolsa Família por amostragem de cidades
