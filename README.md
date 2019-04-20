@@ -6,6 +6,7 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ### 2019
 
+* `19.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/self/oop_basics.py) | Estudo do básico de OOP (classe, método, tipos de variáveis, tipos de métodos)
 * `11.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_update.py) | Buscador dados do Bolsa Família, com atualização automática mensal
 * `27.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/dotfiles) | Arquivos de configuração do bash
 * `26.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/sublime_text_3) | Arquivos de configuração do ST3
