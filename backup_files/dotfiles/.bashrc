@@ -17,6 +17,14 @@ export PATH="/sbin:$PATH";
 export PATH="/usr/local/bin:$PATH";
 export PATH="/usr/local/sbin:$PATH";
 export PATH="$HOME/bin:$PATH";
+export JAVA_HOME="/usr/lib/jvm/jdk-11.0.3";
+export PATH="$JAVA_HOME/bin:$PATH";
+export SPARK_HOME="/opt/spark";
+export PATH="$SPARK_HOME/bin:$PATH";
+export PYSPARK_DRIVER_PYTHON="jupyter";
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook";
+export JAVA="/usr/lib/java/jre1.8.0_211";
+export PATH="$JAVA/bin:$PATH";
 
 # If not running interactively, don't do anything
 case $- in
@@ -160,15 +168,6 @@ alias pip=pip3
 alias ndj-on='cd ~/Documents/Github/novedejulho && source bin/activate' # Activate Nove de Julho
 alias ndj-off='cd ~/Documents/Github/novedejulho && deactivate $$ cd ~' # Deactivate Nove de Julho
 
-# Alias for Major Tom
-alias majortom='ssh -i "majortom.pem" ubuntu@ec2-3-17-152-28.us-east-2.compute.amazonaws.com'
-
-# Aliases for Privoxy
-alias proxy-on='/etc/init.d/privoxy start'
-alias proxy-off='/etc/init.d/privoxy stop'
-alias proxy-restart='/etc/init.d/privoxy restart'
-alias proxy-status='/etc/init.d/privoxy status'
-
 # Mkenv: function to create a folder with environment named .env
 function mkenv() {
     cd ~/Documents/Github/ && mkdir $1 && cd $1 && virtualenv .env
@@ -201,5 +200,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-if [ $TILIX_ID ] || [ $VTE_VERSION ] ; then source /etc/profile.d/vte.sh; fi # Ubuntu Budgie END
-
