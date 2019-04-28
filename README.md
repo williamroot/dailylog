@@ -21,15 +21,15 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 * `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-carol_moreno.ipynb) | Vagas não preenchidas pela USP no Sisu
 * `12.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-12-carol_moreno.ipynb) | Alunos cotistas que passariam na ampla concorrência do Sisu
 * `16 a 22.jan` | [projeto](https://github.com/rodolfo-viana/watchdog) | Watchdog: Acompanhamento de potenciais bots por meio de análises de metadados
-* `08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp __[WIP]__
+* `08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp `[work in progress]`
 
 ### 2018
 
 * `26.dez` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_2/scraping-exercise2.ipynb) | Raspagem de dados: salários dos servidores da Alesp
 * `24.dez` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos.py) | Download dos gastos dos vereadores de São Paulo
-* `22.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/titanic_pos-revisao.ipynb) | Análise exploratória dos passageiros do Titanic (projeto do nanodegree Fundamentos de Data Science)
-* `07.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/chicago_bikeshare_pt_resposta_pos-revisao.py) | Análise de aluguel de bicicletas em Chicago (projeto do nanodegree Fundamentos de Data Science)
-* `19.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP__2018-07-19-titatic_disaster.ipynb) | Estudo de `R` com análise de dados dos passageiros do Titanic
+* `22.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/titanic_pos-revisao.ipynb) | Análise exploratória dos passageiros do Titanic (projeto do nanodegree)
+* `07.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/chicago_bikeshare_pt_resposta_pos-revisao.py) | Análise de aluguel de bicicletas em Chicago (projeto do nanodegree)
+* `19.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP__2018-07-19-titatic_disaster.ipynb) | Estudo de R com análise de dados dos passageiros do Titanic
 * `04.jul` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb) | 10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade
 * `04.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb) | 4 em 5 processos administrativos na GCM terminam sem punição
 * `18.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py) | Estudo de `turtle` básico
@@ -48,11 +48,11 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Cientista de dados na Rede Globo.
+Cientista de dados na Rede Globo. Desenvolvedor do Nove de Julho, projeto de auditoria de dados públicos da Alesp. Colaborador da Operação Serenata de Amor, projeto da Open Knowledge Foundation no Brasil que usa inteligência artificial para fiscalizar gastos dos deputados federais e senadores. 
 
 Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e de publicações da Editora Abril. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
 
-Estudante de Python, R, SQL, machine learning, NLP, data journalism, data visualization e estatística. Membro da Abraji - Associação Brasileira de Jornalismo Investigativo e da Python Software Foundation.
+Estudante de Python, R, SQL, machine learning, natural language processing, data visualization e estatística. Membro da Python Software Foundation.
 
 E-mail: `rodolfoviana@protonmail.com`<br>
 Twitter: `@rodolfoviana`<br>
