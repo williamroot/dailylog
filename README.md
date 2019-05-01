@@ -6,7 +6,9 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ### 2019
 
-* `27.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/00_intro.R) | Estudo: introdução a R
+* `29.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/02_matrix.R) | Estudo: introdução a R (matriz)
+* `27.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/01_vector.R) | Estudo: introdução a R (vetor)
+* `26.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_c/FirstClass/main.c) | Estudo: introdução a C
 * `25.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/math_for_ml/00_intro/Exercicios01.ipynb) | Estudo: introdução a matemática para machine learning
 * `19.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/self/oop_basics.py) | Estudo: básico de OOP (classe, método, tipos de variáveis, tipos de métodos)
 * `11.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_update.py) | Buscador dados do Bolsa Família, com atualização automática mensal
