@@ -6,6 +6,7 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ### 2019
 
+* `29.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/parse_location.py) | Automação de id em localidade nos dados do Uber Movement
 * `29.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/02_matrix.R) | Estudo: introdução a R (matriz)
 * `27.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/01_vector.R) | Estudo: introdução a R (vetor)
 * `26.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_c/FirstClass/main.c) | Estudo: introdução a C
