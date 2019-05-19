@@ -1,0 +1,45 @@
+---
+title: "Gapminder: exploratory analysis"
+output: html_notebook
+---
+
+This is just for studies purposes. 
+
+```{r}
+library("tidyverse")
+library("ggplot2")
+dataset <- read.csv("data/gapminder.tsv", sep="\t")
+str(dataset)
+```
+
+Let's plot it!
+
+```{r}
+ggplot(dataset, aes(x=gdpPercap, y=lifeExp, 
+                    size=pop, color=continent)) +
+  geom_point() +
+  scale_x_log10() +
+  facet_wrap(~year)
+```
+
+Let's filter for countries in Americas.
+
+```{r}
+america <- dataset %>%
+  filter(continent == "Americas")
+
+america
+```
+
+Now let's plot the total GDP per year and country and the population.
+
+```{r}
+america_ttlGPD <- america %>%
+  mutate(GDP = gdpPercap * pop)
+ggplot(america_ttlGPD, aes(x=GDP, y=pop, color=year)) +
+  geom_point() +
+  scale_x_log10() +
+  scale_y_log10() +
+  facet_wrap(~country)
+```
+
