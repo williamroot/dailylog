@@ -43,3 +43,16 @@ ggplot(america_ttlGPD, aes(x=GDP, y=pop, color=year)) +
   facet_wrap(~country)
 ```
 
+Ok, let's work with BRICS (Brazil, Russia, India, China and South Africa)
+
+```{r}
+southam <- dataset %>%
+  filter(country == "Argentina" | country == "Bolivia" | country == "Brazil" | country == "Chile" |
+           country == "Colombia" | country == "Ecuador" | country == "Paraguay" | country == "Peru" |
+           country == "Uruguay" | country == "Venezuela")
+
+ggplot(southam, aes(x = gdpPercap/1000, y = lifeExp, color = factor(year), size = pop)) +
+  geom_point() +
+  facet_wrap(~country)
+```
+
