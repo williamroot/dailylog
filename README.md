@@ -9,11 +9,11 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 * `12.jul` | [estudo](https://github.com/rodolfo-viana/sketches/blob/master/sketches/logo.js) | JavaScript com `p5.js`: reprodução de logodo site pessoal
 * `07.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/self/injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson`
 * `22.jun` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_nfs.py) | Download de gastos e notas fiscais de vereadores de São Paulo
-* `17.jun` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/chartjs) | Primeiros estudos de Chart.js
-* `03.jun` | [projeto](https://rodolfoviana.com.br) | Criação de rodolfo.com.br, com Bootstrap 4 e Liquid
-* `19.mai` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/plotting_gapminder.Rmd) | Estudo: filter(), mutate() e ggplot2
+* `17.jun` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/chartjs) | Primeiros estudos de `Chart.js`
+* `03.jun` | [projeto](https://rodolfoviana.com.br) | Recriação de rodolfo.com.br com `Bootstrap 4` e `Liquid`
+* `19.mai` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/plotting_gapminder.Rmd) | Estudo: `filter()`, `mutate()` e `ggplot2`
 * `07.mai` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/03_operators.ipynb) | Estudo: operadores em R
-* `30.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/parse_location.py) | Automação de id em localidade nos dados do Uber Movement
+* `30.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/parse_location.py) | Automação de `id` em localidade nos dados do Uber Movement
 * `29.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/02_matrix.R) | Estudo: introdução a R (matriz)
 * `27.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/01_vector.R) | Estudo: introdução a R (vetor)
 * `26.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_c/FirstClass/main.c) | Estudo: introdução a C
@@ -58,11 +58,11 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Cientista de dados na Rede Globo. Desenvolvedor do Nove de Julho, projeto de auditoria de dados públicos da Alesp. Colaborador da Operação Serenata de Amor, projeto da Open Knowledge Foundation no Brasil que usa inteligência artificial para fiscalizar gastos dos deputados federais e senadores. 
+Cientista de dados na Rede Globo. Desenvolvedor do Nove de Julho, projeto de auditoria de dados públicos da Alesp. 
 
-Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí, do site Aos Fatos e de publicações da Editora Abril. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
+Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí e de publicações da Editora Abril. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
 
-Estudante de Python, R, SQL, machine learning, natural language processing, data visualization e estatística. Membro da Python Software Foundation.
+Estudante de Python, R, SQL, JavaScript, machine learning, natural language processing, data visualization e estatística. Membro da Python Software Foundation.
 
 E-mail: `rodolfoviana@protonmail.com`<br>
 Twitter: `@rodolfoviana`<br>
