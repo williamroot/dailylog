@@ -6,6 +6,7 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ### 2019
 
+* `12.jul` | [estudo](https://github.com/rodolfo-viana/sketches/blob/master/sketches/logo.js) | JavaScript com `p5.js`: reprodução de logodo site pessoal
 * `07.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/self/injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson`
 * `22.jun` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_nfs.py) | Download de gastos e notas fiscais de vereadores de São Paulo
 * `17.jun` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/chartjs) | Primeiros estudos de Chart.js
