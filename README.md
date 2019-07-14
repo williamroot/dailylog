@@ -8,7 +8,7 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 * `13.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/04-waves.js) | Criação de estrutura de ondas com `p5.js`
 * `12.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/01-logo.js) | JavaScript com `p5.js`: reprodução de logo do site pessoal
-* `08.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-08-injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson
+* `08.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-08-injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson`
 * `05.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-05-uber_maiores_viagens.sql) | Variação no tempo de viagem com Uber
 * `04.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-04-cptm_minutos_operacao.sql) | Contabilidade de minutos de falha nas linhas da CPTM
 * `03.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-03-metro_minutos_operacao.sql) | Contabilidade de minutos de falha nas linhas de metrô
