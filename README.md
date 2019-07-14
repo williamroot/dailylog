@@ -8,7 +8,12 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 * `13.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/04-waves.js) | Criação de estrutura de ondas com `p5.js`
 * `12.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/01-logo.js) | JavaScript com `p5.js`: reprodução de logo do site pessoal
-* `07.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/self/injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson`
+* `08.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-08-injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson
+* `05.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-05-uber_maiores_viagens.sql) | Variação no tempo de viagem com Uber
+* `04.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-04-cptm_minutos_operacao.sql) | Contabilidade de minutos de falha nas linhas da CPTM
+* `03.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-03-metro_minutos_operacao.sql) | Contabilidade de minutos de falha nas linhas de metrô
+* `28.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_motorizado_individual.ipynb) | Perfil dos usuários de carro e moto na pesquisa Origem e Destino
+* `28.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_bicicleta.ipynb) | Perfil dos usuários de bicicleta na pesquisa Origem e Destino
 * `22.jun` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_nfs.py) | Download de gastos e notas fiscais de vereadores de São Paulo
 * `17.jun` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/chartjs) | Primeiros estudos de `Chart.js`
 * `03.jun` | [projeto](https://rodolfoviana.com.br) | Recriação de rodolfo.com.br com `Bootstrap 4` e `Liquid`
