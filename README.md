@@ -7,8 +7,9 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 ### 2019
 
 * `desde 17.ago` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/deep_learning) | Curso de deep learning com Andrew Ng
-* `13.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/04-waves.js) | Criação de estrutura de ondas com `p5.js`
-* `12.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/01-logo.js) | JavaScript com `p5.js`: reprodução de logo do site pessoal
+* `25 jul` | [gráfico](https://rodolfoviana.com.br/assets/misc/mapas/waze_congestionamento.html) | Mapa de horários e locais de trânsito parado no dia 11 de julho, com `leaflet.js`
+* `13.jul` | [gráfico](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/04-waves.js) | Criação de estrutura de ondas com `p5.js`
+* `12.jul` | [gráfico](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/01-logo.js) | JavaScript com `p5.js`: reprodução de logo do site pessoal
 * `08.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-08-injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson`
 * `28.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_motorizado_individual.ipynb) | Perfil dos usuários de carro e moto na pesquisa Origem e Destino
 * `28.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_bicicleta.ipynb) | Perfil dos usuários de bicicleta na pesquisa Origem e Destino
