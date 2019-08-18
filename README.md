@@ -6,25 +6,18 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ### 2019
 
+* `desde 17.ago` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/deep_learning) | Curso de deep learning com Andrew Ng
 * `13.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/04-waves.js) | Criação de estrutura de ondas com `p5.js`
 * `12.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/01-logo.js) | JavaScript com `p5.js`: reprodução de logo do site pessoal
 * `08.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-08-injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson`
-* `05.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-05-uber_maiores_viagens.sql) | Variação no tempo de viagem com Uber
-* `04.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-04-cptm_minutos_operacao.sql) | Contabilidade de minutos de falha nas linhas da CPTM
-* `03.jul` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-03-metro_minutos_operacao.sql) | Contabilidade de minutos de falha nas linhas de metrô
 * `28.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_motorizado_individual.ipynb) | Perfil dos usuários de carro e moto na pesquisa Origem e Destino
 * `28.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_bicicleta.ipynb) | Perfil dos usuários de bicicleta na pesquisa Origem e Destino
 * `22.jun` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_nfs.py) | Download de gastos e notas fiscais de vereadores de São Paulo
-* `17.jun` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/chartjs) | Primeiros estudos de `Chart.js`
+* `17.jun` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/chartjs) | Primeiros estudos de `chart.js`
 * `03.jun` | [projeto](https://rodolfoviana.com.br) | Recriação de rodolfo.com.br com `Bootstrap 4` e `Liquid`
-* `19.mai` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/plotting_gapminder.Rmd) | Estudo: `filter()`, `mutate()` e `ggplot2`
-* `07.mai` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/03_operators.ipynb) | Estudo: operadores em R
-* `30.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/parse_location.py) | Automação de `id` em localidade nos dados do Uber Movement
-* `29.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/02_matrix.R) | Estudo: introdução a R (matriz)
-* `27.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_r/01_vector.R) | Estudo: introdução a R (vetor)
-* `26.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/learning_c/FirstClass/main.c) | Estudo: introdução a C
-* `25.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/math_for_ml/00_intro/Exercicios01.ipynb) | Estudo: introdução a matemática para machine learning
-* `19.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/self/oop_basics.py) | Estudo: básico de OOP (classe, método, tipos de variáveis, tipos de métodos)
+* `30.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/parse_location.py) | Automação de localidade nos dados do Uber Movement
+* `desde 27.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/learning_r) | Introdução a R
+* `25.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/math_for_ml/00_intro/Exercicios01.ipynb) | Introdução a matemática para machine learning
 * `11.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_update.py) | Buscador dados do Bolsa Família, com atualização automática mensal
 * `27.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/dotfiles) | Arquivos de configuração do bash
 * `26.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/sublime_text_3) | Arquivos de configuração do ST3
@@ -36,8 +29,7 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 * `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-validacao_dados_resultado.ipynb) | Validação dos dados do ProUni
 * `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-carol_moreno.ipynb) | Vagas não preenchidas pela USP no Sisu
 * `12.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-12-carol_moreno.ipynb) | Alunos cotistas que passariam na ampla concorrência do Sisu
-* `16 a 22.jan` | [projeto](https://github.com/rodolfo-viana/watchdog) | Watchdog: Acompanhamento de potenciais bots por meio de análises de metadados
-* `08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp `[work in progress]`
+* `desde 08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp
 
 ### 2018
 
