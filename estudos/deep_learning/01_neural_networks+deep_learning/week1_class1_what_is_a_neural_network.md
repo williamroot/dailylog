@@ -4,21 +4,21 @@ Let's start to the Housing Price Prediction example:
 
 > You have a data set with six houses, and you know the size and the price of the houses. You want to fit a function to predict the price of other houses based on their sizes.
 
-![01]()
+![01](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/deep_learning/01_neural_networks%2Bdeep_learning/src/01.png)
 
 If you are familiar with linear regression you might say, "well, let's put a straight line to these data" and we get a straight line.
 
-![02]()
+![02](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/deep_learning/01_neural_networks%2Bdeep_learning/src/02.png)
 
 We know that prices can never be negative, right? So instead of the straight line fit which eventually will become negative, let's bend the line.
 
-![03]()
+![03](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/deep_learning/01_neural_networks%2Bdeep_learning/src/03.png)
 
 So **this blue line ends up being your function for predicting the price of the house, whereas zero here and then there's a straight line fit to the right**. So you can think of this function that you've just fit the housing prices as a very simple neural network.
 
 It's almost as simple as possible neural network. Let me draw it here:
 
-![04]()
+![04](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/deep_learning/01_neural_networks%2Bdeep_learning/src/04.png)
 
 We have as the input to the neural network the size of a house which one we call x. It goes into a node -- the little circle -- and then outputs the price which we call y. The node, which is a **single neuron** in a neural network, implements this function that we drew earlier. And all the neuron does is:
 
@@ -33,7 +33,7 @@ So if this is a single neuron, and it is really a tiny little neural network, a 
 
 > Instead of predicting the price of a house just from the size, you now have other features: number of bedrooms, por instance. So one of the things that really affects the price of a house is family size. Another feature is the zip code, which tells us about walkability. Another one is the neighborhood wealth...
 
-![05]()
+![05](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/deep_learning/01_neural_networks%2Bdeep_learning/src/05.png)
 
 Each of these little circles can be one of those ReLU, rectified linear units or some other slightly non linear function. In the example, x is all of these inputs, and y is the price you're trying to predict.
 
@@ -43,7 +43,7 @@ How you manage neural network is that when you implement it, you need to give it
 
 So what you actually implement is this:
 
-![06]()
+![06](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/deep_learning/01_neural_networks%2Bdeep_learning/src/06.png)
 
 Here, you have a neural network with four inputs. The input features might be the size, number of bedrooms, the zip code, and the wealth of the neighborhood. Given these input features, the job of the neural network
 will be to predict the price y.
