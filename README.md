@@ -6,7 +6,7 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 ### 2019
 
-* `desde 17.ago` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/deep_learning) | Curso de deep learning com Andrew Ng
+* `21.set` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/csv2json.py) | Conversor de `.csv` para múltiplos `.json`
 * `25 jul` | [gráfico](https://rodolfoviana.com.br/assets/misc/mapas/waze_congestionamento.html) | Mapa de horários e locais de trânsito parado no dia 11 de julho, com `leaflet.js`
 * `13.jul` | [gráfico](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/04-waves.js) | Criação de estrutura de ondas com `p5.js`
 * `12.jul` | [gráfico](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/01-logo.js) | JavaScript com `p5.js`: reprodução de logo do site pessoal
@@ -59,10 +59,11 @@ Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registro
 
 Cientista de dados na Rede Globo. Desenvolvedor do Nove de Julho, projeto de auditoria de dados públicos da Alesp. 
 
-Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí e de publicações da Editora Abril. Ganhador de um Prêmio Folha de Reportagem em 2016 e do Prêmio Abril de Jornalismo 2015.
+Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí e de publicações da Editora Abril. 
 
-Estudante de Python, R, SQL, JavaScript, machine learning, natural language processing, data visualization e estatística. Membro da Python Software Foundation.
+Estudante de Python, R, SQL, JavaScript, deep learning, data visualization e estatística. Membro da Python Software Foundation.
 
+Site: `https://rodolfoviana.com.br`<br>
 E-mail: `rodolfoviana@protonmail.com`<br>
 Twitter: `@rodolfoviana`<br>
 LinkedIn: `linkedin.com/in/rodolfoviana`
