@@ -1,6 +1,6 @@
 /*
 MINUTOS DE OPERAÇÃO
--------------------------------
+-------------------
 Base: view_metro
 Objetivo: descobrir o tempo, na soma de minutos, de cada status de operação de cada linha
 Cliente: Gian Dias, produtor da Globo SP
@@ -23,8 +23,7 @@ WITH t as (
       ELSE "Sem dados"
     END as status,
     TIME_DIFF(MAX(CAST(atualizacao as time)), MIN(CAST(atualizacao as time)), minute) as minutos,
-  FROM
-    `tvg-bd-governo.mobilidade_sp_prd.view_metro`
+  FROM `tvg-bd-governo.mobilidade_sp_prd.view_metro`
   GROUP BY 1, 2, 3, 4
 )
 SELECT
@@ -32,6 +31,5 @@ SELECT
   EXTRACT(month from t.data) as mes,
   t.status,
   SUM(t.minutos) as minutos
-FROM
-  t
+FROM t
 GROUP BY 1, 2, 3
