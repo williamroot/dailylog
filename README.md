@@ -2,68 +2,51 @@
 
 # Daily Log
 
-Projetos, scripts, análises, arquivos de backup, notebooks de estudo e registros de trabalho
+Projects, scripts, notebooks, backup files, studies log and works in general
 
 ### 2019
 
-* `21.set` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/csv2json.py) | Conversor de `.csv` para múltiplos `.json`
-* `25 jul` | [gráfico](https://rodolfoviana.com.br/assets/misc/mapas/waze_congestionamento.html) | Mapa de horários e locais de trânsito parado no dia 11 de julho, com `leaflet.js`
-* `13.jul` | [gráfico](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/04-waves.js) | Criação de estrutura de ondas com `p5.js`
-* `12.jul` | [gráfico](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/p5js_sketches/01-logo.js) | JavaScript com `p5.js`: reprodução de logo do site pessoal
-* `08.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-08-injecao_dados_geojson.ipynb) | Ingestão de dados de análises em `.geojson`
-* `28.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_motorizado_individual.ipynb) | Perfil dos usuários de carro e moto na pesquisa Origem e Destino
-* `28.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_bicicleta.ipynb) | Perfil dos usuários de bicicleta na pesquisa Origem e Destino
-* `22.jun` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_nfs.py) | Download de gastos e notas fiscais de vereadores de São Paulo
-* `17.jun` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/chartjs) | Primeiros estudos de `chart.js`
-* `03.jun` | [projeto](https://rodolfoviana.com.br) | Recriação de rodolfo.com.br com `Bootstrap 4` e `Liquid`
-* `30.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/parse_location.py) | Automação de localidade nos dados do Uber Movement
-* `desde 27.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/tree/master/estudos/learning_r) | Introdução a R
-* `25.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/math_for_ml/00_intro/Exercicios01.ipynb) | Introdução a matemática para machine learning
-* `11.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_update.py) | Buscador dados do Bolsa Família, com atualização automática mensal
-* `27.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/dotfiles) | Arquivos de configuração do bash
-* `26.mar` | [backup](https://github.com/rodolfo-viana/dailylog/tree/master/backup_files/sublime_text_3) | Arquivos de configuração do ST3
-* `28.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_pgto_validacao.py) | Buscador de dados do Bolsa Família por amostragem de cidades
-* `26.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_saques.py) | Buscador de dados de saques do Bolsa Família
-* `26.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_pgto.py) | Buscador de dados de pagamentos do Bolsa Família
-* `18.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/scraper_sisu_usp_resultados.py) | Raspador de aprovados na USP pelo Sisu
-* `15.fev` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/deputados_federais_gastos.py) | Download dos gastos na cota parlamentar da Câmara dos Deputados
-* `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-validacao_dados_resultado.ipynb) | Validação dos dados do ProUni
-* `13.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-13-carol_moreno.ipynb) | Vagas não preenchidas pela USP no Sisu
-* `12.fev` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-02-12-carol_moreno.ipynb) | Alunos cotistas que passariam na ampla concorrência do Sisu
-* `desde 08.jan` | [projeto](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: Projeto de auditoria de informações da Alesp
+* `Sep. 22` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2019_um_intro_to_ds_in_python) | Intro to DS in Python at University of Michigan
+* `Sep. 21` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/csv2json.py) | `csv` to `json` converter
+* `Jul. 13` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2019_self_p5js) | First glance at `p5.js`
+* `Jul. 08` | [notebook](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-07-08-injecao_dados_geojson.ipynb) | Creating a `.geojson` file with custom data
+* `Jul. 05` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/queries/2019-07-05-uber_maiores_viagens.sql) | Calculating travel time variations on Uber
+* `Jul. 03` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/queries/2019-07-03-metro_minutos_operacao.sql) | Measuring time of subways' irregular operation
+* `Jun. 28` | [notebook](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2019-06-28-od_bicicleta.ipynb) | Profiling bikers in São Paulo
+* `Jun. 22` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos_nfs.py) | Scraping city councilors' expenses, downloading receipts
+* `Jun. 17` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2019_self_chartjs) | First look at `chart.js`
+* `Apr. 11` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_update.py) | Code to update Bolsa Família data on GCS
+* `Mar. 04` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/queries/2019-03-04_dashboard_bolsa_familia.sql) | Querying Bolsa Família data to build a dashboard
+* `Feb. 18` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/scraper_sisu_usp_resultados.py) | Scraping Sisu data
+* `Jan. 06` | [project](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: a tool for scraping, wrangling, formatting and storing data from State deputies
 
 ### 2018
 
-* `26.dez` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_2/scraping-exercise2.ipynb) | Raspagem de dados: salários dos servidores da Alesp
-* `24.dez` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos.py) | Download dos gastos dos vereadores de São Paulo
-* `22.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/titanic_pos-revisao.ipynb) | Análise exploratória dos passageiros do Titanic (projeto do nanodegree)
-* `07.nov` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/estudos/intro2ds_1/chicago_bikeshare_pt_resposta_pos-revisao.py) | Análise de aluguel de bicicletas em Chicago (projeto do nanodegree)
-* `19.jul` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/WIP__2018-07-19-titatic_disaster.ipynb) | Estudo de R com análise de dados dos passageiros do Titanic
-* `04.jul` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb) | 10% dos gastos de deputados estaduais com gráficas têm indícios de irregularidade
-* `04.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb) | 4 em 5 processos administrativos na GCM terminam sem punição
-* `18.abr` | [estudo](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/turtling.py) | Estudo de `turtle` básico
-* `16.abr` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py) | Uma música aleatória de Belchior a cada duas horas
-* `01.mar` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-02-24-vereadores_correios.ipynb) | Três vereadores gastaram quase meio milhão com mala direta em 2017
+* `Dec. 26` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2018_udacity_introduction_to_data_science) | Exercises from Udacity's Data Science track
+* `Dec. 24` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/vereadores_sp_gastos.py) | Scraping São Paulo councilors' expenses
+* `May. 12` | [notebook](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-05-12-graficas_deputados.ipynb) | State deputies' expenses on printing companies
+* `Apr. 16` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/belchior.py) | A Belchior's song every 2 hours
+* `Apr. 07` | [notebook](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-04-17-gcm-sindicancias-inqueritos.ipynb) | Punishment of offending guards in Comptroller
+* `Mar. 23` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/twitter_hashtag_scraping.py) | Hashtag scraper
+* `Feb. 02` | [notebook](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2018-02-24-vereadores_correios.ipynb) | Councilors' expenses on postal service
 
 ### 2017
 
-* `29.out` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/twitter_hashtag_scraping.py) | Tweets por hashtag
-* `22.ago` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-08-22-atendimentos_sp156.ipynb) | Ocorrências registradas no SP156 por gestão
-* `06.jul` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-06-profile_on_congresspersons.ipynb) | Perfil da Câmara dos Deputados baseado nos gastos via Ceap
-* `04.jul` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-04-supporting_vs_opposing.ipynb) | Recursos recebidos por comitês da Califórnia
-* `20.jun` | [análise](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-06-20-expenses_on_car_rental.ipynb) | Despesas dos deputados federais com aluguel de carros
+* `Jul. 06` | [notebook](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-06-profile_on_congresspersons.ipynb) | Profiling congressmen's expenses
+* `Jul. 04` | [notebook](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-07-04-supporting_vs_opposing.ipynb) | Contributions to Californian propositions
+* `Jun. 20` | [notebook](https://github.com/rodolfo-viana/dailylog/blob/master/notebooks/2017-06-20-expenses_on_car_rental.ipynb) | Congressmen's expenses on car rental
 
-# Sobre o autor
+# About the author
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Cientista de dados na Rede Globo. Desenvolvedor do Nove de Julho, projeto de auditoria de dados públicos da Alesp. 
+Data scientist at Rede Globo. Lead developer at Nove de Julho, a project created to audit open data related to state congressmen. Contributing data analyst at Open Knowledge Foundation's Operação Serenata de Amor, an open-source project designed to inspect expenses from congressmen and senators in Brazil with support of artificial intelligence.
 
-Antes, produtor de reportagem com foco em jornalismo de dados na TV Globo, repórter do jornal Folha de S.Paulo e colaborador da revista piauí e de publicações da Editora Abril. 
+Former data-driven news producer at Globo TV, reporter at Folha de S.Paulo newspaper and contributing reporter at piauí magazine.
 
-Estudante de Python, R, SQL, JavaScript, deep learning, data visualization e estatística. Membro da Python Software Foundation.
+Studying Python, R, SQL, JavaScript, deep learning, statistics, data visualization.
 
-Site: `https://rodolfoviana.com.br`<br>
-E-mail: `rodolfoviana@protonmail.com`<br>
+Website: `rodolfoviana.com.br`<br>
+Email: `rodolfoviana@protonmail.com`<br>
 Twitter: `@rodolfoviana`<br>
 LinkedIn: `linkedin.com/in/rodolfoviana`
