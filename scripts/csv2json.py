@@ -6,7 +6,7 @@ import unicodedata
 import csv
 import json
 
-TEST_FILE = 'csv_file.csv'  # Change it to the file you want to convert
+TEST_FILE = 'escolas.csv'  # Change it to the file you want to convert
 
 
 def csv2json(csv_file):
@@ -26,22 +26,36 @@ def csv2json(csv_file):
         for row in reader:
             content = dict(row)
             json_file = list(content.values())[0]
+            uf = json_file[:2]
+
             if 'CO_MUNICIPIO' in content.keys():
-                path = f"{content['SG_UF']}/{content['NO_MUNICIPIO']}"\
-                    .replace(' ', '').replace("'", '')
-                path = unicodedata.normalize('NFD', path)\
-                    .encode('ascii', 'ignore')\
-                    .decode('utf-8')
-                if not os.path.exists(path):
-                    os.makedirs(path)
-                with open(f'{path}/{json_file}.json', 'w') as output:
-                    output.write(json.dumps(content))
+                if 'CO_ENTIDADE' in content.keys():
+                    path = f"{uf}/{content['CO_MUNICIPIO']}/escolas/"\
+                        .replace(' ', '').replace("'", '')
+                    path = unicodedata.normalize('NFD', path)\
+                        .encode('ascii', 'ignore')\
+                        .decode('utf-8')
+                    if not os.path.exists(path):
+                        os.makedirs(path)
+                    with open(f'{path}/{json_file}.json', 'wb') as output:
+                        output.write(json.dumps([content], ensure_ascii=False).encode('utf8'))
+                else:
+                    path = f"{uf}/{content['CO_MUNICIPIO']}/"\
+                        .replace(' ', '').replace("'", '')
+                    path = unicodedata.normalize('NFD', path)\
+                        .encode('ascii', 'ignore')\
+                        .decode('utf-8')
+                    if not os.path.exists(path):
+                        os.makedirs(path)
+                    with open(f'{path}/{json_file}.json', 'wb') as output:
+                        output.write(json.dumps([content], ensure_ascii=False).encode('utf8'))
             if 'CO_MUNICIPIO' not in content.keys():
-                path = f"{content['SG_UF']}"
+                path = f"{content['CO_UF']}"
                 if not os.path.exists(path):
                     os.makedirs(path)
-                with open(f'{path}/{json_file}.json', 'w') as output:
-                    output.write(json.dumps(content))
+                with open(f'{path}/{json_file}.json', 'wb') as output:
+                    output.write(json.dumps([content], ensure_ascii=False).encode('utf8'))
 
 
 csv2json(TEST_FILE)
+print("Done!")
