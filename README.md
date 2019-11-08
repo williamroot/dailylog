@@ -40,7 +40,7 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Data scientist at Rede Globo. Lead developer at Nove de Julho, a project created to audit open data related to state congressmen. Contributing data analyst at Open Knowledge Foundation's Operação Serenata de Amor, an open-source project designed to inspect expenses from congressmen and senators in Brazil with support of artificial intelligence.
+Data scientist at Rede Globo, instructor at Digital House in Brazil. Lead developer at Nove de Julho, a project created to audit open data related to state congressmen. Contributing data analyst at Open Knowledge Foundation's Operação Serenata de Amor, an open-source project designed to inspect expenses from congressmen and senators in Brazil with support of artificial intelligence.
 
 Former data-driven news producer at Globo TV, reporter at Folha de S.Paulo newspaper and contributing reporter at piauí magazine.
 
