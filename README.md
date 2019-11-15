@@ -6,6 +6,7 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ### 2019
 
+* `Nov. 14` | [script](https://github.com/rodolfo-viana/dailylog/tree/master/scripts/IBGEparser.py) | Parsing IBGE's fixed-width data
 * `Sep. 22` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2019_um_intro_to_ds_in_python) | Intro to DS in Python at University of Michigan
 * `Sep. 21` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/csv2json.py) | `csv` to `json` converter
 * `Jul. 13` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2019_self_p5js) | First glance at `p5.js`
