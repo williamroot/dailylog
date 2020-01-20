@@ -100,7 +100,7 @@ def main():
         if len(unziped_filename) == 1:
             unziped_filename = unziped_filename[0]
         else:
-            print ("ERROR: the number of files for this date is wrong")
+            print("ERROR: the number of files for this date is wrong")
 
         gcs_path = "teste/p_date=" + i + "/" + unziped_filename
         file_path = unziped_dir + unziped_filename
