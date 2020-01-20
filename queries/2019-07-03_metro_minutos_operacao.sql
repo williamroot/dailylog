@@ -15,7 +15,7 @@ WITH t as (
     EXTRACT(date from atualizacao) as data,
     EXTRACT(hour from atualizacao) as hora,
     CASE
-    WHEN situacao in ("Operação Encerrada", "Operações Encerradas") THEN "Operação encerrada"
+      WHEN situacao in ("Operação Encerrada", "Operações Encerradas") THEN "Operação encerrada"
       WHEN situacao = "Operação Normal" THEN "Operação normal"
       WHEN situacao = "Velocidade Reduzida" THEN "Operação com velocidade reduzida"
       WHEN situacao = "Operação Parcial" THEN "Operação parcial"
