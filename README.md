@@ -4,6 +4,13 @@
 
 Projects, scripts, notebooks, backup files, studies log and works in general
 
+### 2020
+
+* `Feb. 02` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_datacamp_r) | Learning R
+* `Jan. 26` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_udemy_python_recap) | Python recap
+* `Jan. 24` | [script](https://github.com/cuducos/calculadora-do-cidadao/pull/32) | INPC adapter for `Calculadora do Cidadão`
+* `Jan. 23` | [script](https://github.com/cuducos/calculadora-do-cidadao/pull/29) | IPCA-15 adapter for `Calculadora do Cidadão`
+
 ### 2019
 
 * `Nov. 25` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/queries/2019-11-25_dashboard_trens.sql) | Measuring time of trains' irregular operation
@@ -43,9 +50,7 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Data scientist at Rede Globo, instructor at Digital House in Brazil. Lead developer at Nove de Julho, a project created to audit open data related to state congressmen. Contributing data analyst at Open Knowledge Foundation's Operação Serenata de Amor, an open-source project designed to inspect expenses from congressmen and senators in Brazil with support of artificial intelligence.
-
-Former data-driven news producer at Globo TV, reporter at Folha de S.Paulo newspaper and contributing reporter at piauí magazine.
+Data scientist at Rede Globo, instructor at Digital House in Brazil. Lead developer at Nove de Julho, a project created to audit open data related to state congressmen. Contributing elsewhere.
 
 Studying Python, R, SQL, JavaScript, deep learning, statistics, data visualization.
 
