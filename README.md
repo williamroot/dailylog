@@ -6,6 +6,8 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ### 2020
 
+* `Apr. 12` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/covid19srag.py) | Scraping SARS cases from Fiocruz
+* `Apr. 11` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/covid19obitos.py) | Scraping covid-19 deaths from Brazilian registry offices, Health Department and state departments
 * `Feb. 02` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_datacamp_r) | Learning R
 * `Jan. 26` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_udemy_python_recap) | Python recap
 * `Jan. 24` | [script](https://github.com/cuducos/calculadora-do-cidadao/pull/32) | INPC adapter for `Calculadora do Cidadão`
