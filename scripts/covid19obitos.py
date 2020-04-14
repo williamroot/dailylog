@@ -8,7 +8,8 @@ import requests
 import pandas as pd
 
 TODAY = date.today().strftime('%Y-%m-%d')
-DATA_DIR = f'data'
+# DATA_DIR = f'data'
+DATA_DIR = '/opt/scripts/data/covid19obitos'
 UF = [
     'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO',
     'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI',
@@ -16,14 +17,14 @@ UF = [
 ]
 
 
-def create_dir():
-    """
-    Cria o diretório `data`, onde serão guardados os arquivos
-    temporários e, ao fim, o arquivo `obitos.csv`. Este
-    diretório é sobrescrito cada vez que o script é rodado.
-    """
-    if not os.path.exists(DATA_DIR):
-        os.makedirs(DATA_DIR)
+# def create_dir():
+#     """
+#     Cria o diretório `data`, onde serão guardados os arquivos
+#     temporários e, ao fim, o arquivo `obitos.csv`. Este
+#     diretório é sobrescrito cada vez que o script é rodado.
+#     """
+#     if not os.path.exists(DATA_DIR):
+#         os.makedirs(DATA_DIR)
 
 
 def fetch_death_registrocivil():
@@ -140,7 +141,7 @@ def merge_dfs():
 
 
 if __name__ == '__main__':
-    create_dir()
+    # create_dir()
     os.chdir(DATA_DIR)
     fetch_death_registrocivil()
     for f in glob.glob(f'raw_obitos_cartorios_*.csv'):
