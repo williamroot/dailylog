@@ -90,7 +90,7 @@ def fetch_data_secretarias():
     Pega o `csv` de cada estado da plataforma Brasil.io, que está
     compilando os dados de cada estado a partir dos registros de
     cada município.
-    
+
     Esta função itera sobre os estados, baixando os `csv`. Ao fim,
     junta todos os `csv` num arquivo único.
 
