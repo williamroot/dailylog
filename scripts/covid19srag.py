@@ -4,7 +4,8 @@ import glob
 import requests
 import pandas as pd
 
-DATA_DIR = f'data'
+# DATA_DIR = f'data'
+DATA_DIR = '/opt/scripts/data/covid19srag'
 UF = {
     'Acre': 'AC', 'Alagoas': 'AL', 'Amapá': 'AP',
     'Amazonas': 'AM', 'Bahia': 'BA', 'Ceará': 'CE',
@@ -18,14 +19,14 @@ UF = {
 }
 
 
-def create_dir():
-    """
-    Cria o diretório `data`, onde serão guardados os arquivos
-    temporários e, ao fim, o arquivo `obitos.csv`. Este
-    diretório é sobrescrito cada vez que o script é rodado.
-    """
-    if not os.path.exists(DATA_DIR):
-        os.makedirs(DATA_DIR)
+# def create_dir():
+#     """
+#     Cria o diretório `data`, onde serão guardados os arquivos
+#     temporários e, ao fim, o arquivo `obitos.csv`. Este
+#     diretório é sobrescrito cada vez que o script é rodado.
+#     """
+#     if not os.path.exists(DATA_DIR):
+#         os.makedirs(DATA_DIR)
 
 
 def fetch_srag_data():
@@ -69,7 +70,7 @@ def fetch_srag_data():
 
 
 if __name__ == '__main__':
-    create_dir()
+    # create_dir()
     os.chdir(DATA_DIR)
     fetch_srag_data()
     for f in glob.glob(f'raw_srag_fiocruz_*.csv'):
