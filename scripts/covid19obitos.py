@@ -8,8 +8,7 @@ import requests
 import pandas as pd
 
 TODAY = date.today().strftime('%Y-%m-%d')
-# DATA_DIR = f'data'
-DATA_DIR = '/opt/scripts/data/covid19obitos'
+DATA_DIR = f'data'
 UF = [
     'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO',
     'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI',
@@ -17,14 +16,14 @@ UF = [
 ]
 
 
-# def create_dir():
-#     """
-#     Cria o diretório `data`, onde serão guardados os arquivos
-#     temporários e, ao fim, o arquivo `obitos.csv`. Este
-#     diretório é sobrescrito cada vez que o script é rodado.
-#     """
-#     if not os.path.exists(DATA_DIR):
-#         os.makedirs(DATA_DIR)
+def create_dir():
+    """
+    Cria o diretório `data`, onde serão guardados os arquivos
+    temporários e, ao fim, o arquivo `obitos.csv`. Este
+    diretório é sobrescrito cada vez que o script é rodado.
+    """
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
 
 
 def fetch_death_registrocivil():
@@ -91,12 +90,7 @@ def fetch_data_secretarias():
     Pega o `csv` de cada estado da plataforma Brasil.io, que está
     compilando os dados de cada estado a partir dos registros de
     cada município.
-
-    A ideia inicial era usar o dataset do G1, mas a forma como eles
-    estão compilando os dados (cada estado em uma aba do Google
-    Sheets) impede a precisão por data: há diversos registros com o
-    campo 'não informado'.
-
+    
     Esta função itera sobre os estados, baixando os `csv`. Ao fim,
     junta todos os `csv` num arquivo único.
 
@@ -141,7 +135,7 @@ def merge_dfs():
 
 
 if __name__ == '__main__':
-    # create_dir()
+    create_dir()
     os.chdir(DATA_DIR)
     fetch_death_registrocivil()
     for f in glob.glob(f'raw_obitos_cartorios_*.csv'):
