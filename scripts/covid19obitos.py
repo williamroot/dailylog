@@ -8,7 +8,7 @@ import requests
 import pandas as pd
 
 TODAY = date.today().strftime('%Y-%m-%d')
-DATA_DIR = f'data'
+DATA_DIR = 'data'
 UF = [
     'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO',
     'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI',

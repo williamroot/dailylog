@@ -4,7 +4,7 @@ import glob
 import requests
 import pandas as pd
 
-DATA_DIR = f'data'
+DATA_DIR = 'data'
 UF = {
     'Acre': 'AC', 'Alagoas': 'AL', 'Amapá': 'AP',
     'Amazonas': 'AM', 'Bahia': 'BA', 'Ceará': 'CE',
