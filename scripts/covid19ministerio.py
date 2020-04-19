@@ -1,13 +1,15 @@
 import os
+from io import StringIO
 import requests
 import pandas as pd
 
-DATA_DIR = '/opt/scripts/data/covid19ministerio'  # Diretório na VM da Globo
+# DATA_DIR = '/opt/scripts/data/covid19ministerio'  # Diretório na VM da Globo
+DATA_DIR = 'data'
 URL_BASE = 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/'
 HEADERS = {"x-parse-application-id": "unAFkcaNDeXajurGB7LChj8SgQYS2ptm"}
 LISTA = [
     'PortalCovid', 'PortalFaixa', 'PortalSrag',
-    'PortalEtiologia', 'PortalAcumulo'
+    'PortalEtiologia', 'PortalAcumulo', 'PortalGeral'
 ]
 
 
@@ -18,8 +20,8 @@ def fetch_ministerio_data():
     data e transforma casos e óbitos acumulados em casos e óbitos
     por dia.
 
-    Script feito em parceria com Adriano Bini, que descobriu o header
-    e criou a versão do scraper em C#. Kudos!
+    Script feito em parceria com Adriano Bini, que criou a versão do
+    scraper em C#. Kudos!
 
     OUTPUT:
         `hospitalizacoes_srag_covid.csv`
@@ -27,34 +29,41 @@ def fetch_ministerio_data():
         `hospitalizacoes_srag_semana_epidem.csv`
         `hospitalizacoes_srag_etiologia.csv`
         `br_diario.csv`
+        `estados_diario.csv`
     """
     for i in LISTA:
         url = URL_BASE + i
         r = requests.get(url, headers=HEADERS)
         raw_data = r.json()
         data = raw_data['results']
-        df = pd.DataFrame.from_dict(data)
-        df.drop(['createdAt', 'objectId'], axis=1, inplace=True)
 
         if i == 'PortalCovid':
+            df = pd.DataFrame.from_dict(data)
+            df.drop(['createdAt', 'objectId'], axis=1, inplace=True)
             df.rename(columns={
                 'label': 'uf', 'qtd_covid': 'covid',
                 'qtd_outros': 'outros', 'updatedAt': 'atualizacao'
             }, inplace=True)
             df.to_csv('hospitalizacoes_srag_covid.csv', index=False)
         elif i == 'PortalFaixa':
+            df = pd.DataFrame.from_dict(data)
+            df.drop(['createdAt', 'objectId'], axis=1, inplace=True)
             df.rename(columns={
                 'label': 'faixa_etaria', 'qtd_homens': 'masculino',
                 'qtd_mulheres': 'feminino', 'updatedAt': 'atualizacao'
             }, inplace=True)
             df.to_csv('hospitalizacoes_srag_sexo_idade.csv', index=False)
         elif i == 'PortalSrag':
+            df = pd.DataFrame.from_dict(data)
+            df.drop(['createdAt', 'objectId'], axis=1, inplace=True)
             df.rename(columns={
                 'label': 'sem_epidem', 'qtd_2019': '2019',
                 'qtd_2020': '2020', 'updatedAt': 'atualizacao'
             }, inplace=True)
             df.to_csv('hospitalizacoes_srag_semana_epidem.csv', index=False)
         elif i == 'PortalEtiologia':
+            df = pd.DataFrame.from_dict(data)
+            df.drop(['createdAt', 'objectId'], axis=1, inplace=True)
             df.rename(columns={
                 'label': 'sem_epidem', 'qtd_influenza_ab': 'influenza_ab',
                 'qtd_investigacao': 'em_investigacao', 'qtd_outros': 'outros',
@@ -62,6 +71,8 @@ def fetch_ministerio_data():
             }, inplace=True)
             df.to_csv('hospitalizacoes_srag_etiologia.csv', index=False)
         elif i == 'PortalAcumulo':
+            df = pd.DataFrame.from_dict(data)
+            df.drop(['createdAt', 'objectId'], axis=1, inplace=True)
             df_temp = pd.DataFrame({
                 'data': ['25/02'], 'casos': [0],
                 'obitos': [0], 'atualizacao': ['manual']
@@ -76,6 +87,15 @@ def fetch_ministerio_data():
             df['casos'] = df['casos'].diff(periods=1).fillna(0).astype(int)
             df['obitos'] = df['obitos'].diff(periods=1).fillna(0).astype(int)
             df.to_csv('br_diario.csv', index=False)
+        elif i == 'PortalGeral':
+            new_url = data[0]['arquivo']['url']
+            df = pd.read_csv(StringIO(requests.get(new_url).text), sep=";")
+            df = df[['estado', 'data', 'casosNovos', 'obitosNovos']]
+            df.rename(columns={
+                'estado': 'uf', 'casosNovos': 'casos',
+                'obitosNovos': 'obitos'
+            }, inplace=True)
+            df.to_csv('estados_diario.csv', index=False)
 
 
 if __name__ == '__main__':
