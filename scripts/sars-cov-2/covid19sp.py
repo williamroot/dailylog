@@ -1,6 +1,8 @@
 import os
 import ssl
+
 import pandas as pd
+
 ssl._create_default_https_context = ssl._create_unverified_context
 
 URL_BASE = 'http://www.seade.gov.br/wp-content/uploads/2020/04/'
@@ -47,7 +49,7 @@ def fetch_state_data():
     df.replace(regex=DICT_DATE, inplace=True)
     df['data'] = pd.to_datetime(df['data'])
     df.to_csv(
-        'sp_estado_dia.csv',
+        'secretaria_sp_estado_dia.csv',
         sep=',',
         encoding='utf-8',
         index=False
@@ -64,10 +66,10 @@ def fetch_cities_data():
     """
     url = URL_BASE + 'Dados-covid-19-municipios.csv'
     df = pd.read_csv(url, sep=';', encoding='latin-1')
-    df = df[['Cidade', 'Mun_Total de casos', 'Mun_Total de óbitos', 'Latitude', 'Longitude']]
+    df = df[['Município', 'Mun_Total de casos', 'Mun_Total de óbitos', 'Latitude', 'Longitude']]
     df = df.dropna(how='all').fillna(0)
     df.rename(columns={
-        'Cidade': 'municipio',
+        'Município': 'municipio',
         'Mun_Total de casos': 'casos',
         'Mun_Total de óbitos': 'obitos',
         'Latitude': 'latitude',
@@ -76,7 +78,7 @@ def fetch_cities_data():
     df[['casos', 'obitos']] = df[['casos', 'obitos']].astype(int)
     df.replace(regex=DICT_LATLONG, inplace=True)
     df.to_csv(
-        'sp_municipios.csv',
+        'secretaria_sp_municipios_total.csv',
         sep=',',
         encoding='utf-8',
         index=False

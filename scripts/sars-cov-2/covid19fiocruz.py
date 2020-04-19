@@ -5,14 +5,15 @@ import requests
 import pandas as pd
 
 DATA_DIR = 'data'
+URL_BASE = 'http://info.gripe.fiocruz.br/data/detailed/'
 UF = {
-    'Acre': 'AC', 'Alagoas': 'AL', 'Amapá': 'AP',
-    'Amazonas': 'AM', 'Bahia': 'BA', 'Ceará': 'CE',
-    'Distrito Federal': 'DF', 'Espírito Santo': 'ES', 'Goiás': 'GO',
-    'Maranhão': 'MA', 'Mato Grosso': 'MT', 'Mato Grosso do Sul': 'MS',
-    'Minas Gerais': 'MG', 'Pará': 'PA', 'Paraíba': 'PB',
-    'Paraná': 'PR', 'Pernambuco': 'PE', 'Piauí': 'PI',
-    'Rio de Janeiro': 'RJ', 'Rio Grande do Norte': 'RN', 'Tocantins': 'TO',
+    'Acre': 'AC', 'Alagoas': 'AL', 'Amapá': 'AP', 'Amazonas': 'AM',
+    'Bahia': 'BA', 'Ceará': 'CE', 'Distrito Federal': 'DF',
+    'Espírito Santo': 'ES', 'Goiás': 'GO', 'Maranhão': 'MA',
+    'Mato Grosso': 'MT', 'Mato Grosso do Sul': 'MS',
+    'Minas Gerais': 'MG', 'Pará': 'PA', 'Paraíba': 'PB', 'Paraná': 'PR',
+    'Pernambuco': 'PE', 'Piauí': 'PI', 'Rio de Janeiro': 'RJ',
+    'Rio Grande do Norte': 'RN', 'Tocantins': 'TO',
     'Rio Grande do Sul': 'RS', 'Rondônia': 'RO', 'Roraima': 'RR',
     'Santa Catarina': 'SC', 'São Paulo': 'SP', 'Sergipe': 'SE'
 }
@@ -21,8 +22,8 @@ UF = {
 def create_dir():
     """
     Cria o diretório `data`, onde serão guardados os arquivos
-    temporários e, ao fim, o arquivo `obitos.csv`. Este
-    diretório é sobrescrito cada vez que o script é rodado.
+    temporários e, ao fim, o arquivo final. Este diretório é
+    sobrescrito cada vez que o script é rodado.
     """
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
@@ -40,9 +41,10 @@ def fetch_srag_data():
 
     OUTPUT: `srag_fiocruz.csv`
     """
-    for y in range(2012, 2021):
+    for y in range(2008, 2021):
         for w in range(1, 54):
-            url = f'http://info.gripe.fiocruz.br/data/detailed/1/2/{y}/{w}/1/Brasil/data-table'
+            url_suffix = f'1/2/{y}/{w}/1/Brasil/data-table'
+            url = URL_BASE + url_suffix
             data = requests.get(url)
             raw_response = data.json()
             response = raw_response['data']
@@ -64,8 +66,8 @@ def fetch_srag_data():
     }, inplace=True)
     final.replace(UF, inplace=True)
     final['semana_epidem'] = final['semana_epidem'].astype(int)
-    final['casos'] = final['casos'].astype(int)
-    final.to_csv('srag_fiocruz.csv', index=False)
+    final['casos'] = final['casos'].fillna(0).astype(int)
+    final.to_csv('fiocruz_srag_sem_epidem.csv', index=False)
 
 
 if __name__ == '__main__':
