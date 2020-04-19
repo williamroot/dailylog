@@ -6,6 +6,7 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ### 2020
 
+* `Apr. 18` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/covid19ministerio.py) | Scraping covid-19 data from official Health Department website
 * `Apr. 16` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/covid19sp.py) | Scraping covid-19 cases and deaths in São Paulo state and its cities
 * `Apr. 12` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/covid19srag.py) | Scraping SARS cases from Fiocruz
 * `Apr. 11` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/covid19obitos.py) | Scraping covid-19 deaths from Brazilian registry offices, Health Department and state departments
