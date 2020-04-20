@@ -56,7 +56,7 @@ def fetch_registrocivil_data():
     final = pd.concat(
         [pd.read_csv(f) for f in glob.glob(f'raw_obitos_cartorios_*.csv')]
     )
-    final.to_csv('cartiorios_obitos_covid.csv', index=False)
+    final.to_csv('cartorios_obitos_covid.csv', index=False)
 
 
 if __name__ == '__main__':
