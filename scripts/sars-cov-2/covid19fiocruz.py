@@ -75,4 +75,4 @@ if __name__ == '__main__':
     os.chdir(DATA_DIR)
     fetch_srag_data()
     for f in glob.glob(f'raw_srag_fiocruz_*.csv'):
-        os.remove(f)  # Apaga todos os `csv` temporários
+        os.remove(f)

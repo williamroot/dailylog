@@ -5,8 +5,8 @@ import pandas as pd
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-URL_BASE = 'http://www.seade.gov.br/wp-content/uploads/2020/04/'
 DATA_DIR = 'data'
+URL_BASE = 'http://www.seade.gov.br/wp-content/uploads/2020/04/'
 DICT_DATE = {
     r"(\d{2})\sjan": r"2020-01-\1", r"(\d{2})\sfev": r"2020-02-\1",
     r"(\d{2})\smar": r"2020-03-\1", r"(\d{2})\sabr": r"2020-04-\1",
@@ -20,9 +20,8 @@ DICT_LATLONG = {r"^(\-\d{2}),(\d*$)": r"\1.\2"}
 
 def create_dir():
     """
-    Cria o diretório `data`, onde serão guardados os arquivos
-    temporários e, ao fim, o arquivo `obitos.csv`. Este
-    diretório é sobrescrito cada vez que o script é rodado.
+    Cria o diretório `data`, onde serão guardados os arquivos.
+    Este diretório é sobrescrito cada vez que o script é rodado.
     """
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)

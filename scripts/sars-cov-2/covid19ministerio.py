@@ -71,8 +71,8 @@ def fetch_ministerio_data():
             df.drop(['createdAt', 'objectId'], axis=1, inplace=True)
             df.rename(columns={
                 'label': 'sem_epidem',
-                'qtd_2019': '2019',
-                'qtd_2020': '2020',
+                'qtd_2019': 'ano_2019',
+                'qtd_2020': 'ano_2020',
                 'updatedAt': 'atualizacao'
             }, inplace=True)
             df.to_csv('ministerio_hospitalizacoes_srag_semana_epidem.csv', index=False)

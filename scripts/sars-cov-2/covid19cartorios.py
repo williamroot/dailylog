@@ -5,13 +5,14 @@ from datetime import date
 import requests
 import pandas as pd
 
-TODAY = date.today().strftime('%Y-%m-%d')
 DATA_DIR = 'data'
+URL_BASE = 'https://transparencia.registrocivil.org.br/api/covid?data_type=data_ocorrido'
 UF = [
     'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO',
     'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI',
     'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO'
 ]
+TODAY = date.today().strftime('%Y-%m-%d')
 
 
 def create_dir():
@@ -37,9 +38,8 @@ def fetch_registrocivil_data():
     OUTPUT: `cartorios_obitos_covid.csv`
     """
     for e in UF:
-        url_base = 'https://transparencia.registrocivil.org.br/api/covid?data_type=data_ocorrido'
         url_search = f'&search=death-covid&state={e}&start_date=2020-01-01&end_date={TODAY}'
-        url = url_base + url_search
+        url = URL_BASE + url_search
         data = requests.get(url)
         raw_response = data.json()
         response = raw_response['chart']
