@@ -156,6 +156,6 @@ def fetch_srag_data_MAVE():
 if __name__ == '__main__':
     create_dir()
     os.chdir(DATA_DIR)
-#    fetch_srag_data()
+    fetch_srag_data()
     os.system('rm raw_srag*')
     fetch_srag_data_MAVE()
