@@ -63,5 +63,4 @@ if __name__ == '__main__':
     create_dir()
     os.chdir(DATA_DIR)
     fetch_registrocivil_data()
-    for f in glob.glob(f'raw_obitos_cartorios_*.csv'):
-        os.remove(f)  # Apaga os arquivos temporários
+    os.system('rm obitos_cartorios*')

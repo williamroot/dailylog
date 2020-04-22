@@ -111,6 +111,7 @@ def fetch_ministerio_data():
             new_url = data[0]['arquivo']['url']
             df = pd.read_csv(StringIO(requests.get(new_url).text), sep=";")
             df = df[['estado', 'data', 'casosNovos', 'obitosNovos']]
+            df['data'] = pd.to_datetime(df['data'], dayfirst=True)
             df.rename(columns={
                 'estado': 'uf',
                 'casosNovos': 'casos',
