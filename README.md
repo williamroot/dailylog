@@ -6,6 +6,7 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ### 2020
 
+* `Apr. 25` | [project](https://github.com/rodolfo-viana/dailylog/blob/master/projects/covid19/covid19.py) | `WIP` SARS-CoV-2 project
 * `Apr. 18` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19ministerio.py) | Scraping covid-19 data from official Health Department
 * `Apr. 16` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19sp.py) | Scraping covid-19 cases and deaths in São Paulo state and its cities
 * `Apr. 12` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19fiocruz.py) | Scraping SARS cases from Fiocruz
@@ -32,7 +33,7 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 * `Apr. 11` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/bf_update.py) | Code to update Bolsa Família data on GCS
 * `Mar. 04` | [query](https://github.com/rodolfo-viana/dailylog/blob/master/queries/2019-03-04_dashboard_bolsa_familia.sql) | Querying Bolsa Família data to build a dashboard
 * `Feb. 18` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/scraper_sisu_usp_resultados.py) | Scraping Sisu data
-* `Jan. 06` | [project](https://github.com/rodolfo-viana/novedejulho) | Nove de Julho: a tool for scraping, wrangling, formatting and storing data from State deputies
+* `Jan. 06` | [project](https://github.com/rodolfo-viana/novedejulho) | `WIP` Nove de Julho: a tool for scraping, wrangling, formatting and storing data from State deputies
 
 ### 2018
 
@@ -58,7 +59,7 @@ Data scientist at Rede Globo, instructor at Digital House in Brazil. Lead develo
 
 Studying Python, R, SQL, JavaScript, deep learning, statistics, data visualization.
 
-Website: `rodolfoviana.com.br`<br>
-Email: `rodolfoviana@protonmail.com`<br>
-Twitter: `@rodolfoviana`<br>
-LinkedIn: `linkedin.com/in/rodolfoviana`
+Website: [`rodolfoviana.com.br`](https://rodolfoviana.com.br/)<br>
+Email: [`rodolfoviana@protonmail.com`](mailto:rodolfoviana@protonmail.com)<br>
+Twitter: [`@rodolfoviana`](https://twitter.com/rodolfoviana/)<br>
+LinkedIn: [`linkedin.com/in/rodolfoviana`](https://linkedin.com/in/rodolfoviana)
