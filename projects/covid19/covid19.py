@@ -5,6 +5,7 @@ import altair as alt
 # Datasets
 virus = 'data/virus.csv'
 casos = 'data/casos.csv'
+geojson = 'data/ufs.json'
 
 # Arquivos e estilo de `img`
 logo = 'https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-4.png'
@@ -159,3 +160,74 @@ g_virus = alt.Chart(data_virus).mark_bar().encode(
 
 # Apresentação
 st.altair_chart(g_virus, use_container_width=True)
+
+# --- TERCEIRO GRÁFICO
+#
+#
+# def gen_base(geojson):
+#     base = alt.Chart(alt.Data(values=geojson)).mark_geoshape(
+#         stroke='black',
+#         strokeWidth=1
+#     ).encode(
+#     ).properties(
+#         width=400,
+#         height=400
+#     )
+#     return base
+#
+#
+# base = gen_base(geojson)
+#
+#
+# def create_geodata(geojson, local):
+#     geodata = pd.read_json(geojson)
+#     feat = list()
+#     coord = list()
+#     for x in geodata['features']:
+#         for v in x['properties'].items():
+#             feat.append(v)
+#     for i in geodata['features']:
+#         for v in i['geometry'].items():
+#             coord.append(v)
+#     geografia = list()
+#     coordinates = list()
+#     for i in feat:
+#         if i[0] == local:
+#             geografia.append(i[1])
+#         else:
+#             pass
+#     for i in coord:
+#         if i[0] == 'coordinates':
+#             coordinates.append(i[1][0])
+#         else:
+#             pass
+#     geografia = pd.Series(geografia)
+#     coordinates = pd.Series(coordinates)
+#     geo = pd.concat([geografia, coordinates], axis=1).reset_index()
+#     geo.rename(columns={0: local.lower(), 1: 'coordinates'}, inplace=True)
+#     geo.drop(columns='index', inplace=True)
+#     return geo
+#
+#
+# geo = create_geodata(geojson, 'ESTADO')
+#
+# --- TO DO ---
+# 1. Criar o dataset de casos/milhão de habitantes
+# 2. Juntar os dois datasets
+# 3. Definir as props (estado, ano, casos, taxa)
+#   cols_props = ['uf', 'ano', 'quantidade', 'taxa']
+# 4. Transformar tudo num json
+# 5. Depois de criar a função abaixo...
+#   def df2geojson(df, properties, coo='coordinates'):
+#       geojson = {"type": "FeatureCollection", "features": []}
+#       for _, row in df.iterrows():
+#           feature = {"type": "Feature",
+#                      "properties": {},
+#                      "geometry": {"type": "Polygon", "coordinates": []}}
+#           feature['geometry']['coordinates'] = [row[coo]]
+#           for prop in properties:
+#               feature['properties'][prop] = row[prop]
+#           geojson['features'].append(feature)
+#       return geojson
+# ...rodar:
+#   geo_final = df2geojson(df, cols_props)
