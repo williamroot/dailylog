@@ -8,17 +8,28 @@ casos = 'data/casos.csv'
 
 # Arquivos e estilo de `img`
 logo = 'https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-4.png'
-style_logo = 'display:block; margin-left:auto; margin-right:auto; width:25%'
+style_logo = 'display:block; margin-left:auto; margin-right:auto; width:20%'
 
-# Elementos básicos da barra lateral
+# Imagem na barra lateral
 st.sidebar.markdown(
-    f'<img src="{logo}" style="{style_logo}">',
+    f"<img src='{logo}' style='{style_logo}' />",
     unsafe_allow_html=True
 )
-st.sidebar.markdown("## Painel SARS-CoV-2")
-st.sidebar.markdown("Uma produção da equipe de Soluções do CoE Analytics")
+
+# Título, linha-fina e linha horizontal na barra lateral
+st.sidebar.markdown(
+    "<h3 align=center>" +
+    "Painel SARS-CoV-2" +
+    "</h3>" +
+    "<p align=center style='font-size:smaller;'>" +
+    "Equipe de Soluções do CoE Analytics" +
+    "</p>" +
+    "<hr>",
+    unsafe_allow_html=True
+)
 
 
+# --- CONSTRUÇÃO DA MECÂNICA ---
 # Função para aquisição de dados e salvamento em cache
 @st.cache
 def fetch_data(file):
@@ -26,18 +37,13 @@ def fetch_data(file):
     return data
 
 
-# Aquisição do arquivo `casos.csv`
+# Aquisição dos dados
 data_casos = fetch_data(casos)
+data_virus = fetch_data(virus)
 
-# ----- HEADER -----
-st.title("Síndrome respiratória aguda grave")
-st.write(f"**Fonte:** Fundação Oswaldo Cruz - Fiocruz<br>**Nota:** Dados até a {int(max(data_casos['sem_epidem']))}ª semana epidemiológica de cada ano", unsafe_allow_html=True)
-
-# ----- PRIMEIRA PARTE -----
-# Subheader
-st.subheader('Casos')
-
-# Criação do seletor de estados
+# Criação do seletor de estados na barra lateral
+# (Como os estados de ambos os datasets são iguais,
+# pegamos os de `cata_casos`)
 estados = data_casos['uf'].unique().tolist()
 estado_selecionado = st.sidebar.multiselect(
     'Digite as siglas dos estados',
@@ -46,14 +52,30 @@ estado_selecionado = st.sidebar.multiselect(
 )
 lista_estados = data_casos['uf'].isin(estado_selecionado)
 
-# Atualização da variável `data_casos` com os estados
+# Atualização das variáveis `data_*` com os estados
 data_casos = data_casos[lista_estados]
+data_virus = data_virus[lista_estados]
 
-# Criação do seletor de período
+# Criação do seletor de período na barra lateral
 ano = st.sidebar.slider('Selecione o período', 2009, 2020, 2020)
 
-# Atualização da variável `data_virus` com o ano selecionado
+# Atualização das variáveis `data_*` com o ano selecionado
 data_casos = data_casos[data_casos['ano'] <= ano]
+data_virus = data_virus[data_virus['ano'] <= ano]
+
+# --- HEADER ---
+# Criação do header e do subheader
+st.title("Síndrome respiratória aguda grave")
+st.write(
+    "**Fonte:** Fundação Oswaldo Cruz - Fiocruz<br>" +
+    f"**Nota:** Dados até a {int(max(data_casos['sem_epidem']))}ª " +
+    "semana epidemiológica de cada ano",
+    unsafe_allow_html=True
+)
+
+# --- PRIMEIRO GRÁFICO ---
+# Título
+st.subheader('Casos')
 
 # Criação de seleção que toma o ponto mais próximo das linhas
 ponto_proximo = alt.selection(
@@ -92,14 +114,14 @@ texto = linhas.mark_text(align='left', dx=5, dy=-5).encode(
     )
 )
 
-# Desenha a régua
+# Desenho da régua vertical
 regua = alt.Chart(data_casos).mark_rule(color='gray').encode(
     x='sem_epidem:Q',
 ).transform_filter(
     ponto_proximo
 )
 
-# Agrega as camadas
+# Agregação das camadas
 g_casos = alt.layer(
     linhas, seletores, regua, texto
 ).configure_view(
@@ -108,17 +130,14 @@ g_casos = alt.layer(
     grid=False
 )
 
+# Apresentação
 st.altair_chart(g_casos, use_container_width=True)
 
-# ----- SEGUNDA PARTE -----
-data_virus = fetch_data(virus)
-
-data_virus = data_virus[lista_estados]
-
-data_virus = data_virus[data_virus['ano'] <= ano]
-
+# --- SEGUNDO GRÁFICO ---
+# Título
 st.subheader('Etiologia')
 
+# Configurações do gráfico
 g_virus = alt.Chart(data_virus).mark_bar().encode(
     y=alt.Y('sum(quantidade):Q', axis=alt.Axis(title="")),
     x=alt.X('ano:O', axis=alt.Axis(title="")),
@@ -138,4 +157,5 @@ g_virus = alt.Chart(data_virus).mark_bar().encode(
     grid=False
 )
 
+# Apresentação
 st.altair_chart(g_virus, use_container_width=True)
