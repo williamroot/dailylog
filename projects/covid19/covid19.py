@@ -4,7 +4,7 @@ import pandas as pd
 import altair as alt
 import pydeck
 
-# Datasets
+# Datasets (aqui entraria a conexão com as tables do BQ)
 virus = 'data/virus.csv'
 casos = 'data/casos.csv'
 pop = 'data/pop.csv'
@@ -37,8 +37,7 @@ st.sidebar.markdown(
 # Função para aquisição de dados e salvamento em cache
 @st.cache
 def fetch_data(file):
-    data = pd.read_csv(file)
-    return data
+    return pd.read_csv(file)
 
 
 # Aquisição dos dados
