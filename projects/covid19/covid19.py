@@ -292,7 +292,7 @@ def df2geojson(df, properties, coo='coordinates'):
         geojson['features'].append(feature)
     geojson = json.dumps(geojson, indent=4)
     # O arquivo a seguir é o que acaba hospedado
-    with open('taxa.json', 'w') as file:
+    with open('taxas.json', 'w') as file:
         file.write(geojson)
     return geojson
 
@@ -306,7 +306,7 @@ geojson = df2geojson(geo_data, properties=[
 def map_maker(file):
     # Hospedado no GitHub
     url = 'https://raw.githubusercontent.com/rodolfo-viana/dailylog/master/misc/'
-    url = url + 'taxa.json'
+    url = url + 'taxas.json'
     LAND_COVER = [
         [[5.0, -81.9], [5.0, -84.2], [-32.0, -84.2], [-32.0, -81.9]]
     ]
