@@ -1,4 +1,5 @@
 import json
+import requests
 import streamlit as st
 import pandas as pd
 import altair as alt
@@ -8,7 +9,10 @@ import plotly.express as px
 virus = 'data/virus.csv'
 casos = 'data/casos.csv'
 pop = 'data/pop.csv'
-json_file = 'data/ufs.json'
+json_file = requests.get(
+    'https://raw.githubusercontent.com/rodolfo-viana/dailylog/master/misc/ufs.json'
+)
+json_data = json_file.content
 
 # Arquivos e estilo de `img`
 logo = 'https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-4.png'
@@ -177,8 +181,7 @@ st.subheader('Internações por 1 milhão de habitantes')
 data_casos = fetch_data(casos)
 data_pop = fetch_data(pop)
 data_casos = data_casos[data_casos['ano'] > 2009]  # Apenas para teste
-with open(json_file, 'r') as f:
-    geojson = json.load(f)
+geojson = json.load(json_data)
 
 # Definição de semana edidemiológica
 max_se = int(max(data_casos['sem_epidem']))
