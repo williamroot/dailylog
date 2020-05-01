@@ -1,4 +1,5 @@
 import json
+import base64
 import requests
 import streamlit as st
 import pandas as pd
@@ -12,7 +13,18 @@ pop = 'data/pop.csv'
 json_file = requests.get(
     'https://raw.githubusercontent.com/rodolfo-viana/dailylog/master/misc/ufs.json'
 )
-json_data = json_file.content
+json_data = json_file.text
+
+# Função para download
+
+
+def get_file(df):
+    csv = df.to_csv(index=False)
+    b64 = base64.b64encode(
+        csv.encode()
+    ).decode()  # some strings <-> bytes conversions necessary here
+    return f'<a href="data:file/csv;base64,{b64}" download="arquivo.csv" style="text-decoration: none; font-size: smaller; color: #f63366;">Download</a>'
+
 
 # Arquivos e estilo de `img`
 logo = 'https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-4.png'
@@ -144,6 +156,7 @@ g_casos = line_chart(
 )
 
 # Apresentação
+st.markdown(get_file(data_casos), unsafe_allow_html=True)
 st.altair_chart(g_casos, use_container_width=True)
 
 # --- SEGUNDO GRÁFICO ---
@@ -171,6 +184,7 @@ g_virus = alt.Chart(data_virus).mark_bar().encode(
 )
 
 # Apresentação
+st.markdown(get_file(data_virus), unsafe_allow_html=True)
 st.altair_chart(g_virus, use_container_width=True)
 
 # --- TERCEIRO GRÁFICO ---
@@ -181,7 +195,7 @@ st.subheader('Internações por 1 milhão de habitantes')
 data_casos = fetch_data(casos)
 data_pop = fetch_data(pop)
 data_casos = data_casos[data_casos['ano'] > 2009]  # Apenas para teste
-geojson = json.load(json_data)
+geojson = json.loads(json_data)
 
 # Definição de semana edidemiológica
 max_se = int(max(data_casos['sem_epidem']))
@@ -210,8 +224,9 @@ fig = px.choropleth_mapbox(
     df, geojson=geojson,
     color="taxa", color_continuous_scale=px.colors.sequential.Reds,
     opacity=0.8, locations="uf", featureidkey="properties.ESTADO",
-    center={"lat": -15.7757875, "lon": -48.0778529},
+    center={"lat": -13.4203546, "lon": -51.1369907},
     mapbox_style="carto-positron", zoom=3
 )
 fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
+st.markdown(get_file(df), unsafe_allow_html=True)
 st.plotly_chart(fig)
