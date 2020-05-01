@@ -15,14 +15,13 @@ json_file = requests.get(
 )
 json_data = json_file.text
 
+
 # Função para download
-
-
 def get_file(df):
     csv = df.to_csv(index=False)
     b64 = base64.b64encode(
         csv.encode()
-    ).decode()  # some strings <-> bytes conversions necessary here
+    ).decode()
     return f'<a href="data:file/csv;base64,{b64}" download="arquivo.csv" style="text-decoration: none; font-size: smaller; color: #f63366;">Download</a>'
 
 
