@@ -304,7 +304,7 @@ geojson = df2geojson(geo_data, properties=[
 # Gerador de mapa
 def map_maker(file):
     # Hospedado no GitHub
-    url = 'https://raw.githubusercontent.com/rodolfo-viana/dailylog/master/misc/'
+    url = 'https://raw.githubusercontent.com/rodolfo-viana/dailylog/master/projects/sars-cov-2/data/'
     url = url + 'taxas.json'
     LAND_COVER = [
         [[5.0, -81.9], [5.0, -84.2], [-32.0, -84.2], [-32.0, -81.9]]
