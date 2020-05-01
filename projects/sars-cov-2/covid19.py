@@ -291,7 +291,7 @@ def df2geojson(df, properties, coo='coordinates'):
         geojson['features'].append(feature)
     geojson = json.dumps(geojson, indent=4)
     # O arquivo a seguir é o que acaba hospedado
-    with open('taxas.json', 'w') as file:
+    with open('data/taxas.json', 'w') as file:
         file.write(geojson)
     return geojson
 
