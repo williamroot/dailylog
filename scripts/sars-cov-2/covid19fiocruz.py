@@ -42,11 +42,12 @@ def fetch_srag_data():
         'Santa Catarina': 'SC', 'São Paulo': 'SP', 'Sergipe': 'SE'
     }
     url_base = 'http://info.gripe.fiocruz.br/data/detailed/'
-    for y in range(2008, 2021):
+    req = requests.Session()
+    for y in range(2015, 2021):
         for w in range(1, 54):
             url_suffix = f'1/2/{y}/{w}/1/Brasil/data-table'
             url = url_base + url_suffix
-            data = requests.get(url)
+            data = req.get(url)
             raw_response = data.json()
             response = raw_response['data']
             df = pd.DataFrame.from_dict(response)
@@ -143,9 +144,9 @@ def fetch_srag_data_MAVE():
         low_memory=False)
     df = df[columns]
     df = df[
-        (df['escala'] != 'incidência') &
-        (df['sexo'] != 'Total') &
-        (df['UF'].between(11, 53))
+        (df['escala'] != 'incidência')
+        & (df['sexo'] != 'Total')
+        & (df['UF'].between(11, 53))
     ]
     df[int_columns] = df[int_columns].astype(int)
     df['UF'].replace(uf_cod, inplace=True)

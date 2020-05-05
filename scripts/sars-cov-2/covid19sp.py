@@ -1,12 +1,15 @@
 import os
 import ssl
+from datetime import datetime
 
 import pandas as pd
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
+
 DATA_DIR = 'data'
-URL_BASE = 'http://www.seade.gov.br/wp-content/uploads/2020/04/'
+MONTH = datetime.now().strftime('%m')
+URL_BASE = f'http://www.seade.gov.br/wp-content/uploads/2020/{MONTH}/'
 DICT_DATE = {
     r"(\d{2})\sjan": r"2020-01-\1", r"(\d{2})\sfev": r"2020-02-\1",
     r"(\d{2})\smar": r"2020-03-\1", r"(\d{2})\sabr": r"2020-04-\1",
@@ -15,7 +18,6 @@ DICT_DATE = {
     r"(\d{2})\sset": r"2020-09-\1", r"(\d{2})\sout": r"2020-10-\1",
     r"(\d{2})\snov": r"2020-11-\1", r"(\d{2})\sdez": r"2020-12-\1"
 }
-DICT_LATLONG = {r"^(\-\d{2}),(\d*$)": r"\1.\2"}
 
 
 def create_dir():
@@ -58,24 +60,21 @@ def fetch_state_data():
 def fetch_cities_data():
     """
     Passa os dados do `csv` da fonte (Seade) para um `dataframe`,
-    elimina as colunas desnecessárias e as linhas em branco,
-    corrige a vírgula em `latitude` e `longitude` e salva em `csv`.
+    elimina as colunas desnecessárias e as linhas em branco e
+    salva em `csv`.
 
     OUTPUT: `sp_municipios.csv`
     """
     url = URL_BASE + 'Dados-covid-19-municipios.csv'
     df = pd.read_csv(url, sep=';', encoding='latin-1')
-    df = df[['Município', 'Mun_Total de casos', 'Mun_Total de óbitos', 'Latitude', 'Longitude']]
+    df = df[['Município', 'Mun_Total de casos', 'Mun_Total de óbitos']]
     df = df.dropna(how='all').fillna(0)
     df.rename(columns={
         'Município': 'municipio',
         'Mun_Total de casos': 'casos',
-        'Mun_Total de óbitos': 'obitos',
-        'Latitude': 'latitude',
-        'Longitude': 'longitude'
+        'Mun_Total de óbitos': 'obitos'
     }, inplace=True)
     df[['casos', 'obitos']] = df[['casos', 'obitos']].astype(int)
-    df.replace(regex=DICT_LATLONG, inplace=True)
     df.to_csv(
         'secretaria_sp_municipios_total.csv',
         sep=',',
