@@ -6,6 +6,7 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ### 2020
 
+* `May. 05` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/pop2020ibge.py) | Collecting population data for 2020 from IBGE's FTP
 * `Apr. 25` | [project](https://github.com/rodolfo-viana/dailylog/blob/master/projects/sars-cov-2/covid19.py) | `WIP` SARS-CoV-2 project
 * `Apr. 18` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19ministerio.py) | Scraping covid-19 data from official Health Department
 * `Apr. 16` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19sp.py) | Scraping covid-19 cases and deaths in São Paulo state and its cities
