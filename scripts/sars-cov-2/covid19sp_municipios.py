@@ -3,6 +3,7 @@ import os
 import unicodedata
 
 import pandas as pd
+pd.set_option('mode.chained_assignment', None)
 
 DATA_DIR = 'data'
 URL_BASE = "https://github.com/seade-R/dados-covid-sp/raw/master/data/"
@@ -537,9 +538,9 @@ def read_excel_sheets(xls_path):
             sheet["obitos"] = sheet["obitos"].astype(float).astype(int)
             to_drop = sheet[sheet["munic"].isin(IGN_LIST)].index
             sheet.drop(to_drop, inplace=True)
-            sheet.to_csv(f'temp_{i}.csv', index=False)
+            sheet.to_csv(f'temp_seade_{i}.csv', index=False)
     quase_final = pd.concat(
-        [pd.read_csv(f) for f in glob.glob(f'temp_*.csv')]
+        [pd.read_csv(f) for f in glob.glob(f'temp_seade_*.csv')]
     )
     final = pd.concat([quase_final, missing_df], sort=False)
     final['munic'] = final['munic'].apply(lambda x: strip_accents(x)
@@ -567,7 +568,22 @@ def read_excel_sheets(xls_path):
         "CD_GEOCMU": "cod_ibge",
         "NM_MUNICIP": 'municipio'
     }, inplace=True)
-    df.to_csv('secretaria_sp_municipios_dia.csv', index=False)
+    lista = list(df['cod_ibge'].unique())
+    for i in lista:
+        df_temp = df[df['cod_ibge'] == i]
+        df_temp['casos_dia'] = df_temp['casos'].diff()
+        df_temp['casos_dia'] = df_temp['casos_dia'].fillna(df_temp['casos'])
+        df_temp['obitos_dia'] = df_temp['obitos'].diff()
+        df_temp['obitos_dia'] = df_temp['obitos_dia'].fillna(df_temp['obitos'])
+        df_temp['casos_dia'] = df_temp['casos_dia'].astype(int)
+        df_temp['obitos_dia'] = df_temp['obitos_dia'].astype(int)
+        df_temp = df_temp[['cod_ibge', 'municipio', 'data', 'casos_dia', 'obitos_dia']]
+        df_temp.rename(columns={'casos_dia': 'casos', 'obitos_dia': 'obitos'}, inplace=True)
+        df_temp.to_csv(f'temp_ibge_{i}.csv', index=False)
+    pronto = pd.concat(
+        [pd.read_csv(f) for f in glob.glob(f'temp_ibge_*.csv')]
+    )
+    pronto.to_csv('secretaria_sp_municipios_dia.csv', encoding='utf-8', index=False)
 
 
 if __name__ == '__main__':
