@@ -514,7 +514,7 @@ def read_excel_sheets(xls_path):
     formata o conjunto -- inclusive com a `desacentuação` --,
     vincula à base de municípios do IBGE e salva
 
-    OUTPUT:
+    OUTPUT: `secretaria_sp_municipios_dia.csv`
     """
     cities = normalize_cities()
     missing_df = pd.DataFrame(missing_dates)
