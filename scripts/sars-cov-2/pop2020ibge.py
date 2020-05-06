@@ -39,13 +39,12 @@ def fetch_data():
     for i in root:
         if fnmatch.fnmatch(i, "projecoes_2018_populacao_2010_2060_*.xls"):
             file = i
-
     lista = []
     url = URL_BASE + FOLDER + file
     xl = pd.ExcelFile(url)
     for i in xl.sheet_names:
         if i not in IGN_LIST:
-            sheet = pd.read_excel(url, sheet_name=i, header=None)
+            sheet = pd.read_excel(xl, sheet_name=i, header=None)
             x = sheet.loc[51, 11]
             dicionario = {"uf": i, "populacao": int(x)}
             lista.append(dicionario)
