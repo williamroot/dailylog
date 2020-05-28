@@ -6,14 +6,6 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ### 2020
 
-
-* `May. 06` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19sp_municipios.py) | Scraping daily covid-19 cases and deaths in São Paulo cities
-* `May. 05` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/pop2020ibge.py) | Collecting population data for 2020 from IBGE's FTP
-* `Apr. 25` | [project](https://github.com/rodolfo-viana/dailylog/blob/master/projects/sars-cov-2/) | `WIP` SARS-CoV-2 project
-* `Apr. 18` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19ministerio.py) | `Deprecated` Scraping covid-19 data from official Health Department
-* `Apr. 16` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19sp.py) | Scraping covid-19 cases and deaths in São Paulo state and its cities
-* `Apr. 12` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19fiocruz.py) | Scraping SARS cases from Fiocruz
-* `Apr. 11` | [script](https://github.com/rodolfo-viana/dailylog/blob/master/scripts/sars-cov-2/covid19cartorios.py) | `Deprecated` Scraping covid-19 deaths from Brazilian registry offices
 * `Feb. 02` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_datacamp_r) | Learning R
 * `Jan. 26` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_udemy_python_recap) | Python recap
 * `Jan. 24` | [script](https://github.com/cuducos/calculadora-do-cidadao/pull/32) | INPC adapter for `Calculadora do Cidadão`
