@@ -152,6 +152,18 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# C AND RELATED
+
+# Debug
+*/**/.codelite
+*/**/Step*
+*/**/Examples
+*/**/*.workspace
+*/**/Makefile
+*/**/[Dd]ebug
+*/**/*.mk
+*/**/*.project
+
 # OTHERS
 
 # mkdocs documentation
