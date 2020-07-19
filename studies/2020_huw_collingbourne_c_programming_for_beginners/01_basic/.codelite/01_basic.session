@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/home/rodolfo/Documents/Github/dailylog/studies/2020_huw_collingbourne_c_programming_for_beginners/01_basic/01_basic.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="/home/rodolfo/Documents/Github/dailylog/studies/2020_huw_collingbourne_c_programming_for_beginners/01_basic/01_basic.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/rodolfo/Documents/Github/dailylog/studies/2020_huw_collingbourne_c_programming_for_beginners/01_basic/02_helloworld_with_args/main.c" Name="FileName"/>
+      <int Value="36" Name="FirstVisibleLine"/>
+      <int Value="45" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
