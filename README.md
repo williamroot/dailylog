@@ -6,6 +6,7 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ### 2020
 
+* `Jul. 18` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_huw_collingbourne_c_programming_for_beginners) | Learning C
 * `Feb. 02` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_datacamp_r) | Learning R
 * `Jan. 26` | [studies](https://github.com/rodolfo-viana/dailylog/tree/master/studies/2020_udemy_python_recap) | Python recap
 * `Jan. 24` | [script](https://github.com/cuducos/calculadora-do-cidadao/pull/32) | INPC adapter for `Calculadora do Cidadão`
