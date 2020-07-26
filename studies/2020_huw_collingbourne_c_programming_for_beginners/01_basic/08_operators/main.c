@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	 * 		depender da idade
 	 */
 	printf("Coloque sua idade: ");
-	fgets(idade, 3, stdin); /* fgets(variável, tamanho máximo, origem (arquivo, stind etc.) */ 
+	fgets(idade, 3, stdin); /* fgets(variável, tamanho máximo, origem (arquivo, stind etc.)) */ 
 	idade_int = atoi(idade); /*atoi() converte str para int */
 	if (idade_int >= 45) {
 	 bonus = 700;
