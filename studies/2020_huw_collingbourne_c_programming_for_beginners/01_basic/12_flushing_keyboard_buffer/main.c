@@ -1,3 +1,5 @@
+/* Data: 2020-07-29 */
+
 #include <stdio.h>
 
 #define STRLEN 5
