@@ -1,7 +1,6 @@
 # ~/.bashrc
 
 # Third-party codes:
-# - The Fuck (https://github.com/nvbn/thefuck)
 # - Git Aware Prompt (https://github.com/jimeh/git-aware-prompt)
 
 # ------------
@@ -15,9 +14,10 @@ export PATH="$HOME/.local/bin:$PATH";
 export PATH="/bin:$PATH";
 export PATH="/sbin:$PATH";
 export PATH="/usr/local/bin:$PATH";
+export AWS="/usr/local/bin/aws2:$PATH";
 export PATH="/usr/local/sbin:$PATH";
 export PATH="$HOME/bin:$PATH";
-export JAVA_HOME="/usr/lib/jvm/jdk-11.0.3";
+export JAVA_HOME="/usr/lib/jvm/jdk-12.0.2";
 export PATH="$JAVA_HOME/bin:$PATH";
 export SPARK_HOME="/opt/spark";
 export PATH="$SPARK_HOME/bin:$PATH";
@@ -25,6 +25,11 @@ export PYSPARK_DRIVER_PYTHON="jupyter";
 export PYSPARK_DRIVER_PYTHON_OPTS="notebook";
 export JAVA="/usr/lib/java/jre1.8.0_211";
 export PATH="$JAVA/bin:$PATH";
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # If not running interactively, don't do anything
 case $- in
@@ -157,20 +162,20 @@ esac
 # FUNCTIONS AND ALIASES
 # ---------------------
 
-# The Fuck
-eval $(thefuck --alias)
-
 # Aliases for Python
-alias python=python3
-alias pip=pip3
+alias python=python3.7
+alias pip=pip3.7
 
 # Aliases for Nove de Julho
 alias ndj-on='cd ~/Documents/Github/novedejulho && source bin/activate' # Activate Nove de Julho
 alias ndj-off='cd ~/Documents/Github/novedejulho && deactivate $$ cd ~' # Deactivate Nove de Julho
 
+# AWS-CLI
+alias aws='aws2'
+
 # Mkenv: function to create a folder with environment named .env
 function mkenv() {
-    cd ~/Documents/Github/ && mkdir $1 && cd $1 && virtualenv .env
+    cd ~/Documents/Github/ && mkdir $1 && cd $1 && python -m virtualenv .env
 }
 
 # Aliases for ls and grep (some with color support)
@@ -185,6 +190,9 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# debconf/config.dat error
+alias fuserkill='sudo fuser -v -k /var/cache/debconf/config.dat'
 
 # Alert for long running commands.  Use like: $ sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
