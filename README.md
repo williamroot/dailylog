@@ -51,9 +51,9 @@ Projects, scripts, notebooks, backup files, studies log and works in general
 
 ![](https://i.imgur.com/MJQNRLk.jpg)
 
-Data scientist at Rede Globo, instructor at Digital House in Brazil. Lead developer at Nove de Julho, a project created to audit open data related to state congressmen. Contributing elsewhere.
+Data scientist at Rede Globo. Lead developer at Nove de Julho, a project created to audit open data related to state congressmen. Contributing elsewhere.
 
-Studying Python, R, SQL, JavaScript, deep learning, statistics, data visualization.
+Studying Python, C, SQL, deep learning, statistics, data visualization.
 
 Website: [`rodolfoviana.com.br`](https://rodolfoviana.com.br/)<br>
 Email: [`rodolfoviana@protonmail.com`](mailto:rodolfoviana@protonmail.com)<br>
