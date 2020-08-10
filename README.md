@@ -56,6 +56,6 @@ Data scientist at Rede Globo. Lead developer at Nove de Julho, a project created
 Studying Python, C, SQL, deep learning, statistics, data visualization.
 
 Website: [`rodolfoviana.com.br`](https://rodolfoviana.com.br/)<br>
-Email: [`rodolfoviana@protonmail.com`](mailto:rodolfoviana@protonmail.com)<br>
+Email: [`eu@rodolfoviana.com.br`](mailto:eu@rodolfoviana.com.br)<br>
 Twitter: [`@rodolfoviana`](https://twitter.com/rodolfoviana/)<br>
 LinkedIn: [`linkedin.com/in/rodolfoviana`](https://linkedin.com/in/rodolfoviana)
