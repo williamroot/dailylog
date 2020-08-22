@@ -16,7 +16,6 @@ export JAVA_HOME="/usr/lib/jvm/jdk-12.0.2";
 export PATH="$JAVA_HOME/bin:$PATH";
 export JAVA="/usr/lib/java/jre1.8.0_211";
 export PATH="$JAVA/bin:$PATH";
-# export ZSH="/home/rodolfo/.oh-my-zsh"
 export ZSH="$HOME/.oh-my-zsh"
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
