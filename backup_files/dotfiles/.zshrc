@@ -10,18 +10,14 @@ export PATH="$HOME/.local/bin:$PATH";
 export PATH="/bin:$PATH";
 export PATH="/sbin:$PATH";
 export PATH="/usr/local/bin:$PATH";
-export AWS="/usr/local/bin/aws2:$PATH";
 export PATH="/usr/local/sbin:$PATH";
 export PATH="$HOME/bin:$PATH";
 export JAVA_HOME="/usr/lib/jvm/jdk-12.0.2";
 export PATH="$JAVA_HOME/bin:$PATH";
-export SPARK_HOME="/opt/spark";
-export PATH="$SPARK_HOME/bin:$PATH";
-export PYSPARK_DRIVER_PYTHON="jupyter";
-export PYSPARK_DRIVER_PYTHON_OPTS="notebook";
 export JAVA="/usr/lib/java/jre1.8.0_211";
 export PATH="$JAVA/bin:$PATH";
-export ZSH="/home/rodolfo/.oh-my-zsh"
+# export ZSH="/home/rodolfo/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
@@ -33,7 +29,7 @@ export NVM_DIR="$HOME/.nvm"
 # ----------------
 
 # Source to git-prompt
-source /home/rodolfo/zsh-git-prompt
+source $HOME/zsh-git-prompt
 PROMPT='%B%m%~%b$(git_super_status) %# '
 
 # Theme
@@ -80,23 +76,16 @@ HIST_STAMPS="yyyy-mm-dd"
 # Oh My Zsh Plugins
 # -----------------
 
-plugins=(git git-prompt zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git git-prompt zsh-syntax-highlighting zsh-autosuggestions zsh-256color)
 source $ZSH/oh-my-zsh.sh
 
 # -------
 # ALIASES
 # -------
 
-# Python
-alias python='/usr/local/bin/python3.7'
-alias pip='pip3.7'
-
 # Nove de Julho
 alias ndj-on='cd ~/Documents/Github/novedejulho && source bin/activate' # Activate Nove de Julho
 alias ndj-off='cd ~/Documents/Github/novedejulho && deactivate $$ cd ~' # Deactivate Nove de Julho
-
-# AWS CLI
-alias aws='aws2'
 
 # ls and grep (some with color support)
 if [ -x /usr/bin/dircolors ]; then
