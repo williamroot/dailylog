@@ -1,7 +1,5 @@
-import os
+import os, json, time
 from io import BytesIO
-import json
-import time
 from zipfile import ZipFile
 import requests as r
 
